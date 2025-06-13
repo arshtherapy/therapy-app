@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://8d1435b6.therapy-app-2ge.pages.dev/
