@@ -152,7 +152,7 @@ const About = () => {
       Our Founders
     </h2>
     <p className="text-gray-600 max-w-2xl mx-auto">
-      The visionaries behind paediatric Therapy Centre who are committed to transforming children's lives.
+      The visionaries behind paediatric Therapy Centre who are committed to transforming children&apos;s lives.
     </p>
   </div>
 
@@ -179,7 +179,7 @@ const About = () => {
             </p>
             <p className="text-gray-600 mb-4">With over 15 years of experience in paediatric care</p>
             <p className="text-gray-600 leading-relaxed">
-              "Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development."
+              &quot;Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development.&quot;
             </p>
           </div>
         </div>
@@ -205,7 +205,7 @@ const About = () => {
             <p className="text-primary-600 font-medium mb-1">BPT, MPT, T/NDT</p>
             <p className="text-primary-600 font-medium mb-4">Aquatic therapist by ATNI</p>
             <p className="text-gray-600 leading-relaxed">
-              "We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children's brighter future."
+              &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children's brighter future.&quot;
             </p>
           </div>
         </div>

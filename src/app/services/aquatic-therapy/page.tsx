@@ -3,7 +3,6 @@ import {  CheckCircle, Phone, Users, Award, Activity, Target, Heart, Zap, Waves,
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { title } from 'process';
 
 export const metadata: Metadata = {
   title: "Aquatic Therapy for Children | Pediatric Therapy Centre Ahmedabad",
