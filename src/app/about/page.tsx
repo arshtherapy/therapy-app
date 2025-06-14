@@ -205,7 +205,7 @@ const About = () => {
             <p className="text-primary-600 font-medium mb-1">BPT, MPT, T/NDT</p>
             <p className="text-primary-600 font-medium mb-4">Aquatic therapist by ATNI</p>
             <p className="text-gray-600 leading-relaxed">
-              &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children's brighter future.&quot;
+              &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children&#39;s brighter future.&quot;
             </p>
           </div>
         </div>
