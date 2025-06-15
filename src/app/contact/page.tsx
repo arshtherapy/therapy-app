@@ -40,7 +40,7 @@ const Contact = () => {
        {
   name: "Juhapura Center",
   address: "A block Himalaya falaknuma, 101 A, behind ROYAL AKBAR TOWER, Quresh Nagar Society, Juhapura, Ahmedabad, Gujarat 380055",
-  phone: "+91-9876543210",
+  phone: "+91-9913466601",
   hours: "Mon-Sat: 9:00 AM - 6:00 PM",
   email: "arshprc@gmail.com",
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.745403274024!2d72.5210613150967!3d22.995396085006797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e852bee2ab5f7%3A0xa43a724db3972ba2!2sArsh%20paediatric%20rehabilitation%20center!5e0!3m2!1sen!2sin!4v1718456380000!5m2!1sen!2sin"
@@ -49,7 +49,7 @@ const Contact = () => {
     {
       name: "Navrangpura Center", 
       address: "704, addor ambition, Navrang Cir, Vithalbhai Patel Colony, Nathalal Colony, Navrangpura, Ahmedabad, Gujarat 380009",
-      phone: "+91-9876543211",
+      phone: "+91-9913466601",
       hours: "Mon-Sat: 9:00 AM - 6:00 PM",
       email: "arshprc@gmail.com",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.381671864798!2d72.55834949999999!3d23.046464799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85d48ebc5f17%3A0x427514eb9e77302!2sArsh%20Paediatric%20Rehabilitation%20Center!5e0!3m2!1sen!2sin!4v1749986108114!5m2!1sen!2sin"
@@ -190,8 +190,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Call Us</h4>
-                    <p className="text-gray-600">+91-9876543210</p>
-                    <p className="text-gray-600">+91-9876543211</p>
+                    <p className="text-gray-600">+91-9913466601</p>
+                    <p className="text-gray-600">+91-9913466601</p>
                   </div>
                 </div>
 
@@ -201,7 +201,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">WhatsApp</h4>
-                    <p className="text-gray-600">+91-9876543210</p>
+                    <p className="text-gray-600">+91-9913466601</p>
                     <p className="text-sm text-primary-600">Available 24/7</p>
                   </div>
                 </div>
@@ -233,14 +233,24 @@ const Contact = () => {
 
             {/* Quick Actions */}
             <div className="space-y-4">
-              <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full py-3 text-lg">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                WhatsApp Us Now
-              </Button>
-              <Button variant="outline" className="w-full border-primary-200 text-primary-600 hover:bg-primary-50 rounded-full py-3 text-lg">
-                <Phone className="w-5 h-5 mr-2" />
-                Call Now: +91-9876543210
-              </Button>
+               <a 
+    href={`https://wa.me/${encodeURIComponent("+91-9913466601")}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-500 flex-1 border border-primary-200 text-white hover:bg-primary-50 hover:text-primary-600 rounded-full px-4 py-2 flex items-center justify-center transition"
+  >
+    <MessageCircle className="w-4 h-4 mr-2" />
+    WhatsApp Now
+  </a>  
+  <a 
+    href={`tel:+91-9913466601`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 border border-primary-200 text-primary-600 hover:bg-primary-50 hover:text-primary-600 rounded-full px-4 py-2 flex items-center justify-center transition"
+  >
+    <Phone className="w-4 h-4 mr-2" />
+    Call Now
+  </a>
             </div>
           </div>
         </div>
@@ -303,15 +313,27 @@ const Contact = () => {
                       <p className="text-gray-600">{location.hours}</p>
                     </div>
 
-                    <div className="flex flex-col sm:flex-row gap-3">
-                      <Button className="flex-1 bg-primary-500 hover:bg-primary-600 text-white rounded-full">
-                        <Phone className="w-4 h-4 mr-2" />
-                        Call This Location
-                      </Button>
-                      <Button variant="outline" className="flex-1 border-primary-200 text-primary-600 hover:bg-primary-50 rounded-full">
-                        Get Directions
-                      </Button>
-                    </div>
+                   <div className="flex flex-col sm:flex-row gap-3">
+                   
+  <a 
+    href={`https://wa.me/${encodeURIComponent("+91-9913466601")}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-primary-500 flex-1 border border-primary-200 text-white hover:bg-primary-50 hover:text-primary-600 rounded-full px-4 py-2 flex items-center justify-center transition"
+  >
+    <Phone className="w-4 h-4 mr-2" />
+    Call Now
+  </a>
+  <a
+    href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(location.address)}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 border border-primary-200 text-primary-600 hover:bg-primary-50 rounded-full px-4 py-2 flex items-center justify-center transition"
+  >
+    Get Directions
+  </a>
+</div>
+
                   </div>
                 </CardContent>
               </Card>
