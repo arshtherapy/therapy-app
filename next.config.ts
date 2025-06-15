@@ -10,7 +10,6 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        
         source: "/(.*)",
         headers: [
           {
@@ -18,6 +17,21 @@ const nextConfig: NextConfig = {
             value: "index, follow",
           },
         ],
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "arshchildtherapy.com",
+          },
+        ],
+        destination: "https://www.arshchildtherapy.com/:path*",
+        permanent: true,
       },
     ];
   },
