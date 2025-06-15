@@ -78,7 +78,7 @@ export default function Home() {
           property="og:description"
           content="Personalized paediatric therapy and rehabilitation services in Ahmedabad. Helping every child grow and thrive."
         />
-        <meta property="og:url" content="https://arshchildtherapy.com" />
+        <meta property="og:url" content="https://www.arshchildtherapy.com" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
       </Head>

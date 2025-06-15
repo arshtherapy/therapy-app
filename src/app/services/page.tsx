@@ -44,7 +44,7 @@ const Services = () => {
     provider: {
       "@type": "MedicalBusiness",
       name: "paediatric Therapy Centre Ahmedabad",
-      url: "https://arshchildtherapy.com",
+      url: "https://www.arshchildtherapy.com",
     },
     description: service.description,
   }));
@@ -58,7 +58,7 @@ const Services = () => {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://arshchildtherapy.com",
+        item: "https://www.arshchildtherapy.com",
       },
       {
         "@type": "ListItem",

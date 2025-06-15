@@ -36,19 +36,19 @@ export const metadata: Metadata = {
     "pediatric therapy, child rehabilitation, autism therapy, speech therapy, occupational therapy, physiotherapy, child development, Ahmedabad",
   metadataBase: new URL("https://www.arshchildtherapy.com"),
   alternates: {
-    canonical: "/",
+    canonical: "https://www.arshchildtherapy.com/", // ✅ FULL URL is required
   },
   openGraph: {
     title: "Arsh Paediatric Rehabilitation Center",
     description:
       "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
-    url: "https://arshchildtherapy.com",
+    url: "https://www.arshchildtherapy.com", // ✅ use www if you're redirecting to it
     siteName: "Arsh Paediatric Rehabilitation Center",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://www.arshchildtherapy.com/og-image.jpg", // ✅ full URL is safer for OG images
         width: 1200,
         height: 630,
         alt: "Arsh Paediatric Rehabilitation Center",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
       "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
     site: "@ArshCenter",
     creator: "@ArshCenter",
-    images: ["/twitter-image.jpg"],
+    images: ["https://www.arshchildtherapy.com/twitter-image.jpg"], // ✅ full URL
   },
   icons: {
     icon: "/favicon.ico",
