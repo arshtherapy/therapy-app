@@ -72,7 +72,7 @@ export default function Home() {
         />
         <meta name="keywords" content="paediatric therapy Ahmedabad, Speech therapy, Child rehabilitation, ABA Therapy, Occupational Therapy" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://arshchildtherapy.com" />
+        <link rel="canonical" href="https://www.arshchildtherapy.com" />
         <meta property="og:title" content="Arsh paediatric Rehabilitation Center – Therapy & Care in Ahmedabad" />
         <meta
           property="og:description"

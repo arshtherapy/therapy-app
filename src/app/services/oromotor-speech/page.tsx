@@ -57,21 +57,25 @@ const OromotorSpeechPage = () => {
               <p className="text-xl text-orange-100 max-w-3xl mx-auto leading-relaxed">
                 Comprehensive therapy for speech and feeding difficulties related to oral-motor function, helping children develop clear communication and safe eating skills.
               </p>
-              <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" passHref>
-                  <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all hover:scale-105">
-                    <Mic className="w-5 h-5 mr-2" />
-                    Start Speech Therapy
-                  </Button>
-                </Link>
-                <Button 
-                  variant="outline" 
-                  className="bg-orange-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call: +91-9876543210
-                </Button>
-              </div>
+             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+  <Link href="/contact" passHref>
+    <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all hover:scale-105">
+      <Mic className="w-5 h-5 mr-2" />
+      Start Speech Therapy
+    </Button>
+  </Link>
+
+  <a href="tel:+919876543210">
+    <Button 
+      variant="outline" 
+      className="bg-orange-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
+    >
+      <Phone className="w-5 h-5 mr-2" />
+      Call: +91-9913466601
+    </Button>
+  </a>
+</div>
+
             </div>
           </div>
         </section>

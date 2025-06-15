@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Arsh Center offers specialized pediatric therapy, rehabilitation, and care services for children in Ahmedabad. Compassionate care tailored to each child's needs.",
   keywords:
     "pediatric therapy, child rehabilitation, autism therapy, speech therapy, occupational therapy, physiotherapy, child development, Ahmedabad",
-  metadataBase: new URL("https://arshchildtherapy.com"),
+  metadataBase: new URL("https://www.arshchildtherapy.com"),
   alternates: {
     canonical: "/",
   },
