@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {  Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -10,54 +10,80 @@ const Toaster = dynamic(
   () => import("@/components/ui/toaster").then((mod) => mod.Toaster),
   { ssr: true }
 );
+
 const Sonner = dynamic(
   () => import("@/components/ui/sonner").then((mod) => mod.Toaster),
   { ssr: true }
 );
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-geist-sans",
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-geist-mono",
 });
 
 export const metadata: Metadata = {
-  title: "Little Hearts Healing Hub | Therapy and Wellness Services",
+  title: "Arsh Paediatric Rehabilitation Center | Therapy & Care in Ahmedabad",
   description:
-    "Little Hearts Healing Hub offers compassionate therapy, mental health counseling, and wellness services tailored to your healing journey.",
+    "Arsh Center offers specialized pediatric therapy, rehabilitation, and care services for children in Ahmedabad. Compassionate care tailored to each child's needs.",
   keywords:
-    "therapy, mental health, counseling, wellness, mindfulness, self-care, healing, online therapy, psychologist, psychiatrist",
+    "pediatric therapy, child rehabilitation, autism therapy, speech therapy, occupational therapy, physiotherapy, child development, Ahmedabad",
   metadataBase: new URL("https://arshchildtherapy.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Little Hearts Healing Hub",
+    title: "Arsh Paediatric Rehabilitation Center",
     description:
-      "Therapy and wellness services tailored to support your emotional and mental well-being.",
+      "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
     url: "https://arshchildtherapy.com",
-    siteName: "Little Hearts Healing Hub",
-    locale: "en_US",
+    siteName: "Arsh Paediatric Rehabilitation Center",
+    locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Arsh Paediatric Rehabilitation Center",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Little Hearts Healing Hub",
+    title: "Arsh Paediatric Rehabilitation Center",
     description:
-      "Discover compassionate therapy and mental wellness support for a brighter future.",
-    site: "@LittleHearts",
-    creator: "@LittleHearts",
+      "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
+    site: "@ArshCenter",
+    creator: "@ArshCenter",
+    images: ["/twitter-image.jpg"],
   },
   icons: {
-    icon: 
-      { url: "/arsh-logo.png", type: "image/png" },
-    apple: "/arsh-logo.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-  robots: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code",
+  },
 };
 
 export default function RootLayout({
@@ -66,16 +92,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
         <Providers>
-          <Toaster />
-          <Sonner />
-          <div className="min-h-screen flex flex-col">
+          <div className="min-h-screen flex flex-col bg-background text-foreground">
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
+          <Toaster />
+          <Sonner />
         </Providers>
       </body>
     </html>
