@@ -21,15 +21,27 @@ const OnlineTherapyPage = () => {
       "name": "Pediatric Therapy Centre Ahmedabad"
     },
     "description": "Virtual therapy sessions that bring expert pediatric care to your home with convenient and flexible online consultations.",
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.0225",
-        "longitude": "72.5714"
-      },
-      "geoRadius": "500000"
-    }
+    "areaServed": [
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0009",
+      "longitude": "72.5169"
+    },
+    "geoRadius": "3000"
+  },
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0417",
+      "longitude": "72.5520"
+    },
+    "geoRadius": "3000"
+  }
+]
+
   };
 
   return (

@@ -7,20 +7,20 @@ import { Metadata } from 'next';
 import { servicesData } from '@/data/service';
 
 export const metadata: Metadata = {
-  title: "Our Services | paediatric Therapy Centre Ahmedabad",
+  title: "Our Services | Paediatric Therapy Centre Ahmedabad",
   description: "Explore our specialized paediatric therapy services including Speech Therapy, Physiotherapy, ABA and more in Ahmedabad.",
   keywords: ["paediatric therapy", "Speech Therapy", "Ahmedabad kids therapy"],
   openGraph: {
-    title: "Our Services | paediatric Therapy Centre Ahmedabad",
+    title: "Our Services | Paediatric Therapy Centre Ahmedabad",
     description: "Explore our specialized paediatric therapy services in Ahmedabad.",
     url: "https://www.arshchildtherapy.com/services",
-    siteName: "paediatric Therapy Centre Ahmedabad",
+    siteName: "Paediatric Therapy Centre Ahmedabad",
     images: [
       {
         url: "https://images.unsplash.com/photo-1621330396166-3e8e53a5e5e9?auto=format&fit=crop&q=80&w=1200",
         width: 1200,
         height: 630,
-        alt: "paediatric Therapy Centre Ahmedabad",
+        alt: "Paediatric Therapy Centre Ahmedabad",
       },
     ],
     locale: "en_US",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Services | paediatric Therapy Centre Ahmedabad",
+    title: "Our Services | Paediatric Therapy Centre Ahmedabad",
     description: "Explore our specialized paediatric therapy services in Ahmedabad.",
     images: [
       "https://images.unsplash.com/photo-1621330396166-3e8e53a5e5e9?auto=format&fit=crop&q=80&w=1200",
@@ -43,7 +43,7 @@ const Services = () => {
     serviceType: service.title,
     provider: {
       "@type": "MedicalBusiness",
-      name: "paediatric Therapy Centre Ahmedabad",
+      name: "Paediatric Therapy Centre Ahmedabad",
       url: "https://www.arshchildtherapy.com",
     },
     description: service.description,
@@ -97,7 +97,7 @@ const Services = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "MedicalBusiness",
-            name: "paediatric Therapy Centre Ahmedabad",
+            name: "Paediatric Therapy Centre Ahmedabad",
             url: "https://www.arshchildtherapy.com/services",
             image: "https://images.unsplash.com/photo-1621330396166-3e8e53a5e5e9?auto=format&fit=crop&q=80&w=1200",
             description: "Explore our specialized paediatric therapy services including Speech Therapy, Physiotherapy, ABA and more.",

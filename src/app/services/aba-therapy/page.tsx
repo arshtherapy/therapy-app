@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "ABA Therapy for Autism | paediatric Therapy Centre Ahmedabad",
+  title: "ABA Therapy for Autism | Paediatric Therapy Centre Ahmedabad",
   description: "Evidence-based ABA therapy services for children with Autism Spectrum Disorder to develop essential skills and manage behaviors.",
   keywords: ["ABA therapy Ahmedabad", "Autism treatment", "Behavior therapy for autism"],
 };
@@ -18,18 +18,30 @@ const ABAAutismTherapyPage = () => {
     "serviceType": "ABA Therapy for Autism",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "paediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Applied Behavior Analysis (ABA) therapy for children with Autism Spectrum Disorder to improve communication, social skills, and behavior management.",
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.0225",
-        "longitude": "72.5714"
-      },
-      "geoRadius": "50000"
-    }
+    "areaServed": [
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0009",
+      "longitude": "72.5169"
+    },
+    "geoRadius": "3000"
+  },
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0417",
+      "longitude": "72.5520"
+    },
+    "geoRadius": "3000"
+  }
+]
+
   };
 
   return (

@@ -21,15 +21,27 @@ const OromotorSpeechPage = () => {
       "name": "Pediatric Therapy Centre Ahmedabad"
     },
     "description": "Comprehensive oro-motor and speech therapy for children with speech production difficulties, feeding challenges, and oral-motor coordination issues.",
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.0225",
-        "longitude": "72.5714"
-      },
-      "geoRadius": "50000"
-    }
+    "areaServed": [
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0009",
+      "longitude": "72.5169"
+    },
+    "geoRadius": "3000"
+  },
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0417",
+      "longitude": "72.5520"
+    },
+    "geoRadius": "3000"
+  }
+]
+
   };
 
   return (

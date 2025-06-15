@@ -21,15 +21,27 @@ const SensoryIntegrationPage = () => {
       "name": "Pediatric Therapy Centre Ahmedabad"
     },
     "description": "Expert sensory integration therapy focused on improving the brain's ability to process sensory information for children with sensory processing disorders.",
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.0225",
-        "longitude": "72.5714"
-      },
-      "geoRadius": "50000"
-    }
+    "areaServed": [
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0009",
+      "longitude": "72.5169"
+    },
+    "geoRadius": "3000"
+  },
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0417",
+      "longitude": "72.5520"
+    },
+    "geoRadius": "3000"
+  }
+]
+
   };
 
   return (

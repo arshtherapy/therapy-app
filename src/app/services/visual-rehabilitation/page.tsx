@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Visual Rehabilitation Therapy | paediatric Therapy Centre Ahmedabad",
+  title: "Visual Rehabilitation Therapy | Paediatric Therapy Centre Ahmedabad",
   description: "Specialized therapy focused on improving functional vision and visual motor integration for children with visual processing challenges.",
   keywords: ["visual rehabilitation", "visual processing disorders", "vision therapy", "paediatric occupational therapy"],
 };
@@ -18,18 +18,30 @@ const VisualRehabilitationPage = () => {
     "serviceType": "Visual Rehabilitation Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "paediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Therapy focused on improving functional vision and visual motor integration for children with visual processing challenges.",
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.0225",
-        "longitude": "72.5714"
-      },
-      "geoRadius": "50000"
-    }
+    "areaServed": [
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0009",
+      "longitude": "72.5169"
+    },
+    "geoRadius": "3000"
+  },
+  {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.0417",
+      "longitude": "72.5520"
+    },
+    "geoRadius": "3000"
+  }
+]
+
   };
 
   return (
