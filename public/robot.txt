@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arshchildtherapy.com/
+Sitemap: https://www.arshchildtherapy.com/

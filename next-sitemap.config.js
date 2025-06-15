@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://arshchildtherapy.com',
+  siteUrl: 'https://www.arshchildtherapy.com',
   generateRobotsTxt: true,
 };
