@@ -15,46 +15,41 @@ const stats = [
   { value: "98%", label: "Parent Satisfaction", icon: <HeartPulse className="w-8 h-8 mx-auto mb-3" /> }
 ];
 
-
 const processSteps = [
-  { 
-    number: "01", 
-    title: "Initial Consultation", 
+  {
+    number: "01",
+    title: "Initial Consultation",
     description: "Free assessment to understand your child's needs",
     icon: <UserCheck className="w-8 h-8 text-primary-500 mb-4" />
   },
-  { 
-    number: "02", 
-    title: "Personalized Plan", 
+  {
+    number: "02",
+    title: "Personalized Plan",
     description: "Custom therapy plan tailored to your child",
     icon: <BrainCircuit className="w-8 h-8 text-primary-500 mb-4" />
   },
-  { 
-    number: "03", 
-    title: "Therapy Sessions", 
+  {
+    number: "03",
+    title: "Therapy Sessions",
     description: "Regular sessions with our expert therapists",
     icon: <Activity className="w-8 h-8 text-primary-500 mb-4" />
   },
-  { 
-    number: "04", 
-    title: "Progress Tracking", 
+  {
+    number: "04",
+    title: "Progress Tracking",
     description: "Ongoing evaluation and plan adjustments",
     icon: <Stars className="w-8 h-8 text-primary-500 mb-4" />
   }
 ];
-const AboutSection = dynamic(() => import('@/components/AboutSection'), { 
+
+const AboutSection = dynamic(() => import('@/components/AboutSection'), {
   ssr: true,
   loading: () => (
     <section className="py-20 bg-gradient-to-b from-white to-accent-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Simple loading state */}
-          <div>
-            <div className="h-96 bg-gray-100 animate-pulse rounded-lg"></div>
-          </div>
-          <div>
-            <div className="h-96 bg-gray-100 animate-pulse rounded-lg"></div>
-          </div>
+          <div className="h-96 bg-gray-100 animate-pulse rounded-lg"></div>
+          <div className="h-96 bg-gray-100 animate-pulse rounded-lg"></div>
         </div>
       </div>
     </section>
@@ -65,36 +60,80 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Arsh paediatric Rehabilitation Center – Therapy & Care in Ahmedabad</title>
+        <title>Arsh Paediatric Rehabilitation Center – Therapy & Care in Ahmedabad</title>
         <meta
           name="description"
-          content="Arsh paediatric Rehabilitation Center offers personalized therapy for children in Ahmedabad. Speech, Occupational, ABA Therapy & more – book a free consultation!"
+          content="Arsh Paediatric Rehabilitation Center offers personalized therapy for children in Ahmedabad. Speech, Occupational, ABA Therapy & more – book a free consultation!"
         />
         <meta name="keywords" content="paediatric therapy Ahmedabad, Speech therapy, Child rehabilitation, ABA Therapy, Occupational Therapy" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.arshchildtherapy.com" />
-        <meta property="og:title" content="Arsh paediatric Rehabilitation Center – Therapy & Care in Ahmedabad" />
+        <link rel="canonical" href="https://www.arshchildtherapy.com/" />
+        <meta property="og:title" content="Arsh Paediatric Rehabilitation Center – Therapy & Care in Ahmedabad" />
         <meta
           property="og:description"
           content="Personalized paediatric therapy and rehabilitation services in Ahmedabad. Helping every child grow and thrive."
         />
-        <meta property="og:url" content="https://www.arshchildtherapy.com" />
+        <meta property="og:url" content="https://www.arshchildtherapy.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
+
+        {/* ✅ JSON-LD Schema.org markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalClinic",
+              "name": "Arsh Paediatric Rehabilitation Center",
+              "url": "https://www.arshchildtherapy.com/",
+              "logo": "https://www.arshchildtherapy.com/favicon.ico",
+              "image": "https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg",
+              "description": "Specialized pediatric therapy, rehabilitation, and autism care center based in Ahmedabad, India.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Your Clinic Address Here",
+                "addressLocality": "Ahmedabad",
+                "addressRegion": "Gujarat",
+                "postalCode": "380015",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-9876543210",
+                "contactType": "Customer Service"
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "10:00",
+                "closes": "18:00"
+              },
+              "sameAs": [
+                "https://www.facebook.com/arshchildtherapy",
+                "https://www.instagram.com/arshchildtherapy"
+              ]
+            })
+          }}
+        />
       </Head>
 
       <main className="min-h-screen overflow-hidden">
-        {/* Hero Section */}
         <HeroSection />
 
-        {/* Stats Bar */}
         <section className="bg-primary-600 text-white py-12 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-primary-700/30 to-primary-500/30 z-0"></div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {stats.map((stat, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/15 transition-colors duration-300"
                 >
                   {stat.icon}
@@ -106,13 +145,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services Overview */}
         <ServicesOverview />
+        <AboutSection />
 
-        {/* About Preview */}
-      
-<AboutSection />
-        {/* Process Section */}
         <section className="py-20 bg-white relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-5">
             <div className="absolute inset-0 bg-[url('/assets/grid.svg')] bg-repeat bg-center"></div>
@@ -122,11 +157,11 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Simple <span className="text-primary-500">Process</span></h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">How we work with you to support your child&#39;s development</p>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {processSteps.map((step, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all border border-gray-100 hover:border-primary-100 group"
                 >
                   <div className="text-5xl font-bold text-primary-100 mb-2 group-hover:text-primary-500 transition-colors">{step.number}</div>
@@ -139,15 +174,11 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials */}
         <TestimonialsSlider />
-
-        {/* Locations Map */}
         <LocationsMap />
 
-        {/* CTA Section */}
-        <section 
-          aria-label="Call to action" 
+        <section
+          aria-label="Call to action"
           className="relative py-24 bg-gradient-to-r from-primary-600 to-primary-700 overflow-hidden"
         >
           <div className="absolute top-0 left-0 w-full h-full opacity-10">
