@@ -1,4 +1,3 @@
-// app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -7,12 +6,14 @@ import Footer from "@/components/Footer";
 import Providers from "./providers";
 import dynamic from "next/dynamic";
 
-const Toaster = dynamic(() => import("@/components/ui/toaster").then(mod => mod.Toaster), {
-  ssr: true,
-});
-const Sonner = dynamic(() => import("@/components/ui/sonner").then(mod => mod.Toaster), {
-  ssr: true,
-});
+const Toaster = dynamic(
+  () => import("@/components/ui/toaster").then((mod) => mod.Toaster),
+  { ssr: true }
+);
+const Sonner = dynamic(
+  () => import("@/components/ui/sonner").then((mod) => mod.Toaster),
+  { ssr: true }
+);
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,11 +52,12 @@ export const metadata: Metadata = {
     creator: "@LittleHearts",
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: 
+      { url: "/arsh-logo.png", type: "image/png" },
+    apple: "/arsh-logo.png",
   },
-  robots: "index, follow",
   manifest: "/site.webmanifest",
+  robots: "index, follow",
 };
 
 export default function RootLayout({

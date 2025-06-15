@@ -98,7 +98,7 @@ const Services = () => {
             "@context": "https://schema.org",
             "@type": "MedicalBusiness",
             name: "paediatric Therapy Centre Ahmedabad",
-            url: "https://www.yourtherapycentre.com/services",
+            url: "https://www.arshchildtherapy.com/services",
             image: "https://images.unsplash.com/photo-1621330396166-3e8e53a5e5e9?auto=format&fit=crop&q=80&w=1200",
             description: "Explore our specialized paediatric therapy services including Speech Therapy, Physiotherapy, ABA and more.",
             address: {
