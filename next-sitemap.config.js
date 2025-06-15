@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://therapy-app-2ge.pages.dev',
+  siteUrl: 'https://arshchildtherapy.com',
   generateRobotsTxt: true,
 };
