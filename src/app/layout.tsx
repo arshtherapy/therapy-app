@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     "Little Hearts Healing Hub offers compassionate therapy, mental health counseling, and wellness services tailored to your healing journey.",
   keywords:
     "therapy, mental health, counseling, wellness, mindfulness, self-care, healing, online therapy, psychologist, psychiatrist",
-  metadataBase: new URL("https://littleheartshealinghub.com"),
+  metadataBase: new URL("https://arshchildtherapy.com"),
   openGraph: {
     title: "Little Hearts Healing Hub",
     description:
       "Therapy and wellness services tailored to support your emotional and mental well-being.",
-    url: "https://littleheartshealinghub.com",
+    url: "https://arshchildtherapy.com",
     siteName: "Little Hearts Healing Hub",
     locale: "en_US",
     type: "website",

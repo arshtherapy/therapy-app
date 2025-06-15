@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://arshchildtherapy.com/
+Host: https://arshchildtherapy.com
 
 # Sitemaps
 Sitemap: https://arshchildtherapy.com/sitemap.xml

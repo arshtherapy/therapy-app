@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Our Services | paediatric Therapy Centre Ahmedabad",
     description: "Explore our specialized paediatric therapy services in Ahmedabad.",
-    url: "https://db2770b4.therapy-app-2ge.pages.dev/services",
+    url: "https://arshchildtherapy.com/services",
     siteName: "paediatric Therapy Centre Ahmedabad",
     images: [
       {
@@ -44,7 +44,7 @@ const Services = () => {
     provider: {
       "@type": "MedicalBusiness",
       name: "paediatric Therapy Centre Ahmedabad",
-      url: "https://www.yourtherapycentre.com",
+      url: "https://arshchildtherapy.com",
     },
     description: service.description,
   }));
@@ -58,13 +58,13 @@ const Services = () => {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.yourtherapycentre.com",
+        item: "https://arshchildtherapy.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Services",
-        item: "https://www.yourtherapycentre.com/services",
+        item: "https://arshchildtherapy.com/services",
       },
     ],
   };
