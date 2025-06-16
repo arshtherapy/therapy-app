@@ -99,7 +99,7 @@ export default function Home() {
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91-9876543210",
+                "telephone": "+91-9998162680",
                 "contactType": "Customer Service"
               },
               "openingHoursSpecification": {
@@ -207,7 +207,7 @@ export default function Home() {
                   className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary-600 rounded-full px-8 py-6 text-lg font-medium group"
                 >
                   <Phone className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform inline" />
-                  Call Now: +91-9876543210
+                  Call Now: +91-9998162680
                 </button>
               </a>
             </div>

@@ -133,7 +133,7 @@ const FAQ = () => {
                 variant="outline" 
                 className="border-primary-300 text-primary-600 hover:bg-primary-100 rounded-full px-8 py-3 text-lg"
               >
-                Call: +91-9876543210
+                Call: +91-9998162680
               </Button>
             </div>
           </CardContent>
