@@ -31,9 +31,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Arsh Paediatric Rehabilitation Center | Therapy & Care in Ahmedabad",
   description:
-    "Arsh Center offers specialized pediatric therapy, rehabilitation, and care services for children in Ahmedabad. Compassionate care tailored to each child's needs.",
+    "Arsh Center offers specialized paediatric therapy, rehabilitation, and care services for children in Ahmedabad. Compassionate care tailored to each child's needs.",
   keywords:
-    "pediatric therapy, child rehabilitation, autism therapy, speech therapy, occupational therapy, physiotherapy, child development, Ahmedabad",
+    "paediatric therapy, child rehabilitation, autism therapy, speech therapy, occupational therapy, physiotherapy, child development, Ahmedabad",
   metadataBase: new URL("https://www.arshchildtherapy.com"),
   alternates: {
     canonical: "https://www.arshchildtherapy.com/", // ✅ FULL URL is required
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arsh Paediatric Rehabilitation Center",
     description:
-      "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
+      "Specialized paediatric therapy and rehabilitation services in Ahmedabad",
     url: "https://www.arshchildtherapy.com", // ✅ use www if you're redirecting to it
     siteName: "Arsh Paediatric Rehabilitation Center",
     locale: "en_IN",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Arsh Paediatric Rehabilitation Center",
     description:
-      "Specialized pediatric therapy and rehabilitation services in Ahmedabad",
+      "Specialized paediatric therapy and rehabilitation services in Ahmedabad",
     site: "@ArshCenter",
     creator: "@ArshCenter",
     images: ["https://www.arshchildtherapy.com/twitter-image.jpg"], // ✅ full URL

@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Sensory Integration Therapy | Pediatric Therapy Centre Ahmedabad",
+  title: "Sensory Integration Therapy | Paediatric Therapy Centre Ahmedabad",
   description: "Expert sensory integration therapy focused on improving the brain's ability to process sensory information for children with sensory processing disorders.",
-  keywords: ["Sensory integration Ahmedabad", "Sensory processing disorder", "Pediatric occupational therapy", "Autism sensory therapy", "ADHD sensory support"],
+  keywords: ["Sensory integration Ahmedabad", "Sensory processing disorder", "Paediatric occupational therapy", "Autism sensory therapy", "ADHD sensory support"],
 };
 
 const SensoryIntegrationPage = () => {
@@ -18,7 +18,7 @@ const SensoryIntegrationPage = () => {
     "serviceType": "Sensory Integration Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Expert sensory integration therapy focused on improving the brain's ability to process sensory information for children with sensory processing disorders.",
     "areaServed": [

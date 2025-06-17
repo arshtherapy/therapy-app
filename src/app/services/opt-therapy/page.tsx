@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Oral Placement Therapy (OPT) | Pediatric Therapy Centre Ahmedabad",
+  title: "Oral Placement Therapy (OPT) | Paediatric Therapy Centre Ahmedabad",
   description: "Specialized therapy for improving oral-motor coordination and speech clarity through targeted exercises and techniques.",
   keywords: ["Oral Placement Therapy Ahmedabad", "OPT therapy", "Speech therapy", "Oral motor therapy", "Feeding therapy"],
 };
@@ -18,7 +18,7 @@ const OralPlacementTherapyPage = () => {
     "serviceType": "Oral Placement Therapy (OPT)",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Specialized therapy for improving oral-motor coordination and speech clarity through targeted exercises and techniques.",
     "areaServed": [

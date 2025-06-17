@@ -25,7 +25,7 @@ const TestimonialsSlider = () => {
       location: "Ahmedabad",
       rating: 5,
       text: "Excellent physiotherapy services. My daughter's motor skills have improved significantly with their help.",
-      therapy: "paediatric Physiotherapy"
+      therapy: "Paediatric Physiotherapy"
     },
     {
       name: "Neha Joshi",

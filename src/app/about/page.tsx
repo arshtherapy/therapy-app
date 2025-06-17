@@ -7,38 +7,18 @@ import Image from 'next/image';
 
 const About = () => {
   const teamMembers = [
-    {
-      name: "Dr. Sarah Johnson",
-      qualification: "PhD in Speech-Language Pathology",
-      specialty: "Speech Therapy & Communication Disorders",
-      experience: "8 Years",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=400",
-      quote: "Every child has a unique voice waiting to be heard. My goal is to help them find it."
-    },
-    {
-      name: "Dr. Priya Sharma",
-      qualification: "Masters in paediatric Physiotherapy",
-      specialty: "paediatric Physical Therapy",
-      experience: "6 Years",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=400",
-      quote: "Movement is medicine. I help children discover the joy of physical activity and independence."
-    },
-    {
-      name: "Ms. Anjali Patel",
-      qualification: "Masters in Occupational Therapy",
-      specialty: "Occupational Therapy & Sensory Integration",
-      experience: "7 Years",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=400",
-      quote: "I believe in empowering children to achieve independence in their daily activities."
-    },
-    {
-      name: "Dr. Rajesh Kumar",
-      qualification: "BCBA, Masters in Applied Behavior Analysis",
-      specialty: "Autism & ABA Therapy",
-      experience: "5 Years",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=400",
-      quote: "Every small step forward is a victory worth celebrating with our children and families."
-    }
+    { name: "Nehal Suthar", experience: "7 Years" },
+    { name: "Zalak Suthar", experience: "5 Years" },
+    { name: "Kritika", experience: "5 Years" },
+    { name: "Ruhee Mam", experience: "5 Years" },
+    { name: "Manjur Masuri", experience: "5 Years" },
+    { name: "Sabiha Saiyed", experience: "5 Years" },
+    { name: "Naziya Shaikh", experience: "5 Years" },
+    { name: "Jasim", experience: "5 Years" },
+    { name: "Alfez", experience: "5 Years" },
+    { name: "Ruksar Mam", experience: "5 Years" },
+    { name: "Nafisa Mam", experience: "5 Years" },
+    { name: "Bharat Sir", experience: "5 Years" }
   ];
 
   const stats = [
@@ -51,9 +31,9 @@ const About = () => {
   return (
     <>
     <Head>
-        <title>About Us - paediatric Therapy Centre</title>
+        <title>About Us - Arsh Paediatric Therapy Centre</title>
         <meta name="description" content="Learn about our expert team and mission at paediatric Therapy Centre." />
-        <meta property="og:title" content="About Us - paediatric Therapy Centre" />
+        <meta property="og:title" content="About Us - Paediatric Therapy Centre" />
         <meta property="og:description" content="Meet our team of certified therapists dedicated to empowering children." />
         {/* Add more meta tags as needed */}
       </Head>
@@ -145,88 +125,82 @@ const About = () => {
             ))}
           </div>
         </section>
-{/* Founder Section */}
-<section className="mb-16">
-  <div className="text-center mb-12">
-    <h2 className="text-3xl md:text-4xl font-poppins font-bold text-gray-800 mb-4">
-      Our Founders
-    </h2>
-    <p className="text-gray-600 max-w-2xl mx-auto">
-      The visionaries behind paediatric Therapy Centre who are committed to transforming children&apos;s lives.
-    </p>
-  </div>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-    {/* Founder 1 */}
-    <Card className="border-2 border-gray-100 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300">
-      <CardContent className="p-8">
-        <div className="flex flex-col items-center space-y-6">
-          <Image 
-            src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400"
-            alt="Dr. Nilofar Shaikh - Founder"
-            width={160}
-            height={160}
-            className="rounded-full object-cover border-4 border-primary-100"
-          />
-          <div className="text-center">
-            <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-2">
-              Dr. Nilofar Vora Shaikh
-            </h3>
-            <p className="text-primary-600 font-medium mb-1">
-              BPT, T/NDT, Aquatic Therapist (ATNI)<br />
-              Certified RBT Therapist<br />
-              Certified OPT Specialist
-            </p>
-            <p className="text-gray-600 mb-4">With over 15 years of experience in paediatric care</p>
-            <p className="text-gray-600 leading-relaxed">
-              &quot;Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development.&quot;
+        {/* Founder Section */}
+        <section className="mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-poppins font-bold text-gray-800 mb-4">
+              Our Founders
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              The visionaries behind paediatric Therapy Centre who are committed to transforming children&apos;s lives.
             </p>
           </div>
-        </div>
-      </CardContent>
-    </Card>
 
-    {/* Founder 2 */}
-    <Card className="border-2 border-gray-100 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300">
-      <CardContent className="p-8">
-        <div className="flex flex-col items-center space-y-6">
-          <Image 
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400"
-            alt="Dr. Aadil Shaikh - Founder"
-            width={160}
-            height={160}
-            className="rounded-full object-cover border-4 border-primary-100"
-          />
-          <div className="text-center">
-            <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-2">
-              Dr. Aadil Shaikh
-            </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Founder 1 */}
+            <Card className="border-2 border-gray-100 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex flex-col items-center space-y-6">
+                  <Image 
+                    src=""
+                    alt="Nilofar Shaikh - Founder"
+                    width={160}
+                    height={160}
+                    className="rounded-full object-cover border-4 border-primary-100"
+                  />
+                  <div className="text-center">
+                    <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-2">
+                      Nilofar Shaikh
+                    </h3>
+                    <p className="text-gray-600 mb-4">With over 15 years of experience in paediatric care</p>
+                    <p className="text-gray-600 leading-relaxed">
+                      &quot;Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development.&quot;
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
 
-            <p className="text-primary-600 font-medium mb-1">BPT, MPT, T/NDT</p>
-            <p className="text-primary-600 font-medium mb-4">Aquatic therapist by ATNI</p>
-            <p className="text-gray-600 leading-relaxed">
-              &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children&#39;s brighter future.&quot;
-            </p>
+            {/* Founder 2 */}
+            <Card className="border-2 border-gray-100 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex flex-col items-center space-y-6">
+                  <Image 
+                    src=""
+                    alt="Aadil Shaikh - Founder"
+                    width={160}
+                    height={160}
+                    className="rounded-full object-cover border-4 border-primary-100"
+                  />
+                  <div className="text-center">
+                    <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-2">
+                      Aadil Shaikh
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children&#39;s brighter future.&quot;
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
-        </div>
-      </CardContent>
-    </Card>
-  </div>
 
-  <div className="mt-12 bg-primary-50 rounded-3xl p-8 max-w-4xl mx-auto">
-    <div className="text-center">
-      <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-4">
-        Our Founding Story
-      </h3>
-      <p className="text-gray-600 leading-relaxed mb-4">
-        Founded in 2018 by Dr. Nilofar Vora Shaikh and Dr. Aadil Shaikh, Arsh Paediatric Rehabilitaion & Speech Therapy Centre began with a simple mission: to provide high-quality, accessible therapy services to children in Ahmedabad.
-      </p>
-      <p className="text-gray-600 leading-relaxed">
-        What started as a small clinic with two therapists has now grown into a leading center with multiple locations, serving hundreds of families each year while maintaining the personal touch and commitment to excellence that defined our beginnings.
-      </p>
-    </div>
-  </div>
-</section>
+          <div className="mt-12 bg-primary-50 rounded-3xl p-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <h3 className="text-2xl font-poppins font-bold text-gray-800 mb-4">
+                Our Founding Story
+              </h3>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Founded in 2018 by Nilofar Shaikh and Aadil Shaikh, Arsh Paediatric Rehabilitaion & Speech Therapy Centre began with a simple mission: to provide high-quality, accessible therapy services to children in Ahmedabad.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                What started as a small clinic with two therapists has now grown into a leading center with multiple locations, serving hundreds of families each year while maintaining the personal touch and commitment to excellence that defined our beginnings.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Team Section */}
         <section className="mb-16">
           <div className="text-center mb-12">
@@ -238,37 +212,25 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {teamMembers.map((member, index) => (
-              <Card key={index} className="border-2 border-gray-100 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <CardContent className="p-8">
-                  <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
-                    {/* Photo */}
-                    <div className="flex-shrink-0">
-                      <Image 
-                        src={member.image}
-                        alt={`${member.name} - ${member.specialty}`}
-                        width={96}
-                        height={96}
-                        className="rounded-full object-cover border-4 border-primary-100"
-                      />
-                    </div>
-                    
-                    {/* Info */}
-                    <div className="flex-1 text-center md:text-left">
-                      <h3 className="text-xl font-poppins font-bold text-gray-800 mb-2">
-                        {member.name}
-                      </h3>
-                      <p className="text-primary-600 font-medium mb-1">{member.qualification}</p>
-                      <p className="text-gray-600 mb-2">{member.specialty}</p>
-                      <div className="inline-block bg-secondary-100 text-secondary-700 px-3 py-1 rounded-full text-sm mb-4">
-                        {member.experience} Experience
-                      </div>
-                      <blockquote className="text-gray-600 italic text-sm leading-relaxed">
-                        &quot;{member.quote}&quot;
-                      </blockquote>
-                    </div>
+              <Card key={index} className="border-2 border-gray-100 rounded-xl hover:shadow-md transition-all duration-200">
+                <CardContent className="p-4 flex flex-col items-center">
+                  <div className="w-20 h-20 bg-gray-200 rounded-full mb-3 overflow-hidden">
+                    <Image 
+                      src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=400"
+                      alt={member.name}
+                      width={80}
+                      height={80}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
+                  <h3 className="font-medium text-center text-gray-800">
+                    {member.name}
+                  </h3>
+                  <p className="text-sm text-gray-500">
+                    {member.experience} experience
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -288,13 +250,12 @@ const About = () => {
               Our therapists use a variety of evidence-based methods, including play therapy, sensory integration, behavioral techniques, and family coaching to ensure holistic development and positive outcomes.
             </p>
             <Button asChild>
-              <Link href="/contact" aria-label="Contact paediatric Therapy Centre">
+              <Link href="/contact" aria-label="Contact Paediatric Therapy Centre">
                 Get In Touch <ArrowRight className="ml-2" />
               </Link>
             </Button>
           </div>
         </section>
-
       </div>
     </div>
     </>

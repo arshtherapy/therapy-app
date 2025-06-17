@@ -88,7 +88,7 @@ export default function Home() {
               "url": "https://www.arshchildtherapy.com/",
               "logo": "https://www.arshchildtherapy.com/favicon.ico",
               "image": "https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg",
-              "description": "Specialized pediatric therapy, rehabilitation, and autism care center based in Ahmedabad, India.",
+              "description": "Specialized paediatric therapy, rehabilitation, and autism care center based in Ahmedabad, India.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Your Clinic Address Here",
@@ -200,7 +200,7 @@ export default function Home() {
               </Link>
               <a
                 href="tel:+919876543210"
-                aria-label="Call Arsh paediatric Rehabilitation Center"
+                aria-label="Call Arsh Paediatric Rehabilitation Center"
                 rel="noopener noreferrer"
               >
                 <button

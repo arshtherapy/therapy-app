@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Orthosis & Equipments | Pediatric Therapy Centre Ahmedabad",
+  title: "Orthosis & Equipments | Paediatric Therapy Centre Ahmedabad",
   description: "Provision and support for orthotic devices to improve posture, mobility, and daily functioning in children with special needs.",
-  keywords: ["Orthosis Ahmedabad", "Pediatric orthotics", "Mobility equipment", "Assistive devices", "Posture support"],
+  keywords: ["Orthosis Ahmedabad", "Paediatric orthotics", "Mobility equipment", "Assistive devices", "Posture support"],
 };
 
 const OrthosisEquipmentsPage = () => {
@@ -18,7 +18,7 @@ const OrthosisEquipmentsPage = () => {
     "serviceType": "Orthosis & Equipments Services",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Provision and support for orthotic devices to improve posture, mobility, and daily functioning in children with special needs.",
     "areaServed": [

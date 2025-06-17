@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Physical Therapy for Children | Pediatric Therapy Centre Ahmedabad",
+  title: "Physical Therapy for Children | Paediatric Therapy Centre Ahmedabad",
   description: "Specialized physical therapy to improve mobility, strength, and motor skills in children with expert paediatric physiotherapists.",
-  keywords: ["Physical therapy Ahmedabad", "Pediatric physiotherapy", "Child mobility therapy", "Motor skills development"],
+  keywords: ["Physical therapy Ahmedabad", "Paediatric physiotherapy", "Child mobility therapy", "Motor skills development"],
 };
 
 const PhysicalTherapyPage = () => {
@@ -18,7 +18,7 @@ const PhysicalTherapyPage = () => {
     "serviceType": "Physical Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Specialized physical therapy to improve mobility, strength, and motor skills in children with expert paediatric physiotherapists.",
     "areaServed": [
@@ -67,7 +67,7 @@ const PhysicalTherapyPage = () => {
                 Physical <span className="text-yellow-300">Therapy</span> for Children
               </h1>
               <p className="text-xl text-emerald-100 max-w-3xl mx-auto leading-relaxed">
-                Specialized physical therapy to improve mobility, strength, and motor skills in children with expert pediatric physiotherapists.
+                Specialized physical therapy to improve mobility, strength, and motor skills in children with expert paediatric physiotherapists.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" passHref>
@@ -298,7 +298,7 @@ const PhysicalTherapyPage = () => {
                 Conditions We Treat
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Our pediatric physical therapists have expertise in treating a wide range of conditions affecting children&#39;s movement and mobility
+                Our paediatric physical therapists have expertise in treating a wide range of conditions affecting children&#39;s movement and mobility
               </p>
             </div>
             
@@ -388,7 +388,7 @@ const PhysicalTherapyPage = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-gray-600">
-                Common questions about our pediatric physical therapy services
+                Common questions about our paediatric physical therapy services
               </p>
             </div>
             
@@ -431,7 +431,7 @@ const PhysicalTherapyPage = () => {
               Start Your Child&#39;s Physical Therapy Journey
             </h2>
             <p className="text-xl text-emerald-100 mb-8">
-              Help your child achieve their movement goals with our expert pediatric physical therapy services.
+              Help your child achieve their movement goals with our expert paediatric physical therapy services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>

@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Early Intervention Services | Pediatric Therapy Centre Ahmedabad",
+  title: "Early Intervention Services | Paediatric Therapy Centre Ahmedabad",
   description: "Comprehensive early intervention therapies addressing developmental delays in young children to maximize their potential and improve long-term outcomes.",
-  keywords: ["Early intervention Ahmedabad", "Developmental delays", "Pediatric therapy", "Autism early intervention", "Child development"],
+  keywords: ["Early intervention Ahmedabad", "Developmental delays", "Paediatric therapy", "Autism early intervention", "Child development"],
 };
 
 const EarlyInterventionPage = () => {
@@ -18,7 +18,7 @@ const EarlyInterventionPage = () => {
     "serviceType": "Early Intervention Services",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Comprehensive early intervention therapies addressing developmental delays in young children to maximize their potential and improve long-term outcomes.",
     "areaServed": [

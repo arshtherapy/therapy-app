@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Aquatic Therapy for Children | Pediatric Therapy Centre Ahmedabad",
+  title: "Aquatic Therapy for Children | Paediatric Therapy Centre Ahmedabad",
   description: "Therapeutic water-based exercises to improve mobility, coordination, and strength through low-impact aquatic therapy for children.",
-  keywords: ["Aquatic therapy Ahmedabad", "Water therapy children", "Hydrotherapy pediatric", "Pool therapy"],
+  keywords: ["Aquatic therapy Ahmedabad", "Water therapy children", "Hydrotherapy paediatric", "Pool therapy"],
 };
 
 const AquaticTherapyPage = () => {
@@ -18,7 +18,7 @@ const AquaticTherapyPage = () => {
     "serviceType": "Aquatic Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Therapeutic water-based exercises to improve mobility, coordination, and strength through low-impact aquatic therapy for children.",
    "areaServed": [
@@ -337,7 +337,7 @@ const AquaticTherapyPage = () => {
                 Our Therapeutic Pool Features
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                State-of-the-art aquatic therapy facility designed specifically for pediatric therapeutic needs
+                State-of-the-art aquatic therapy facility designed specifically for paediatric therapeutic needs
               </p>
             </div>
             

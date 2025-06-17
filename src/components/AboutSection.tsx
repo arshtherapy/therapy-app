@@ -75,7 +75,7 @@ export default function AboutSection() {
               Empowering Children Through <span className="text-primary-500">Personalized Therapy</span>
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-600 mb-6 leading-relaxed text-lg">
-              At <strong className="text-primary-600">Arsh paediatric Rehabilitation Center</strong>, we are dedicated to supporting your child&apos;s development through
+              At <strong className="text-primary-600">Arsh Paediatric Rehabilitation Center</strong>, we are dedicated to supporting your child&apos;s development through
               personalized, evidence-based therapy. Our experienced team provides compassionate
               care tailored to each child&apos;s unique journey.
             </motion.p>

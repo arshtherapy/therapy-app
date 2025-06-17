@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Oro-motor & Speech Therapy | Pediatric Therapy Centre Ahmedabad",
+  title: "Oro-motor & Speech Therapy | Paediatric Therapy Centre Ahmedabad",
   description: "Comprehensive oro-motor and speech therapy for children with speech production difficulties, feeding challenges, and oral-motor coordination issues.",
   keywords: ["Oro-motor therapy Ahmedabad", "Speech therapy", "Feeding therapy", "Articulation disorders", "Childhood apraxia", "Dysphagia treatment"],
 };
@@ -18,7 +18,7 @@ const OromotorSpeechPage = () => {
     "serviceType": "Oro-motor & Speech Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
     "description": "Comprehensive oro-motor and speech therapy for children with speech production difficulties, feeding challenges, and oral-motor coordination issues.",
     "areaServed": [

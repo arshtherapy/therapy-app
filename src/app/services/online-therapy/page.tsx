@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Online Consultation and Therapy | Pediatric Therapy Centre Ahmedabad",
-  description: "Virtual therapy sessions that bring expert pediatric care to your home with convenient and flexible online consultations.",
-  keywords: ["Online therapy Ahmedabad", "Virtual therapy sessions", "Telehealth pediatric therapy", "Remote consultation"],
+  title: "Online Consultation and Therapy | Paediatric Therapy Centre Ahmedabad",
+  description: "Virtual therapy sessions that bring expert paediatric care to your home with convenient and flexible online consultations.",
+  keywords: ["Online therapy Ahmedabad", "Virtual therapy sessions", "Telehealth paediatric therapy", "Remote consultation"],
 };
 
 const OnlineTherapyPage = () => {
@@ -18,9 +18,9 @@ const OnlineTherapyPage = () => {
     "serviceType": "Online Consultation and Therapy",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Pediatric Therapy Centre Ahmedabad"
+      "name": "Paediatric Therapy Centre Ahmedabad"
     },
-    "description": "Virtual therapy sessions that bring expert pediatric care to your home with convenient and flexible online consultations.",
+    "description": "Virtual therapy sessions that bring expert paediatric care to your home with convenient and flexible online consultations.",
     "areaServed": [
   {
     "@type": "GeoCircle",
@@ -67,7 +67,7 @@ const OnlineTherapyPage = () => {
                 Online <span className="text-yellow-300">Consultation</span> & Therapy
               </h1>
               <p className="text-xl text-cyan-100 max-w-3xl mx-auto leading-relaxed">
-                Virtual therapy sessions that bring expert pediatric care to your home with convenient and flexible online consultations.
+                Virtual therapy sessions that bring expert paediatric care to your home with convenient and flexible online consultations.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" passHref>
@@ -113,10 +113,10 @@ const OnlineTherapyPage = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                  Expert Pediatric Care from Anywhere
+                  Expert Paediatric Care from Anywhere
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Our online consultation and therapy services bring the same high-quality pediatric care directly to your home. Experience convenient, flexible, and effective therapy sessions through secure video platforms with our expert therapists.
+                  Our online consultation and therapy services bring the same high-quality paediatric care directly to your home. Experience convenient, flexible, and effective therapy sessions through secure video platforms with our expert therapists.
                 </p>
                 <div className="space-y-4 mb-8">
                   {[
@@ -299,7 +299,7 @@ const OnlineTherapyPage = () => {
                 Conditions We Treat Online
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Our virtual therapy services effectively address various pediatric developmental and therapeutic needs
+                Our virtual therapy services effectively address various paediatric developmental and therapeutic needs
               </p>
             </div>
             
@@ -421,7 +421,7 @@ const OnlineTherapyPage = () => {
               Start Your Online Therapy Journey Today
             </h2>
             <p className="text-xl text-cyan-100 mb-8">
-              Experience the convenience and effectiveness of expert pediatric therapy from the comfort of your home.
+              Experience the convenience and effectiveness of expert paediatric therapy from the comfort of your home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>
