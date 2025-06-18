@@ -149,10 +149,12 @@ const Navbar = () => {
             ))}
             
             {/* Call Button */}
+            <a href="tel:+91-9998162680" className="flex items-center px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary hover:bg-primary-light/50 transition-all duration-300">
             <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 shadow-md hover:shadow-lg transition-all duration-300 dark:bg-primary dark:hover:bg-primary/80 group">
               <Phone className="bg-primary w-4 h-4 mr-2 group-hover:animate-pulse" />
               Call Now
             </Button>
+            </a>
           </div>
 
           {/* Mobile Navigation */}
