@@ -71,7 +71,7 @@ const Navbar = () => {
               <span className="text-white font-bold text-lg">Arsh</span>
             </div>
             <h1 className="hidden sm:block text-xl font-semibold text-gray-800 tracking-wide font-poppins group-hover:text-primary transition-colors duration-300">
-              Paediatric Therapy
+              Child Therapy
             </h1>
           </Link>
 

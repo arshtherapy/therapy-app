@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">PT</span>
+                <span className="text-white font-bold text-lg">Arsh</span>
               </div>
               <h3 className="text-xl font-poppins font-semibold">
-                paediatric Therapy Centre
+                Child Therapy 
               </h3>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300">
-            © 2024 paediatric Therapy Centre. All rights reserved.
+            © 2024 Arsh Child Therapy. All rights reserved.
           </p>
         </div>
       </div>
