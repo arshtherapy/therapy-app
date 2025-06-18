@@ -60,6 +60,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.ico" />
         <title>Arsh Paediatric Rehabilitation Center – Therapy & Care in Ahmedabad</title>
         <meta
           name="description"
@@ -75,6 +76,7 @@ export default function Home() {
         />
         <meta property="og:url" content="https://www.arshchildtherapy.com/" />
         <meta property="og:type" content="website" />
+        <meta property='og:logo' content='https://www.arshchildtherapy.com/favicon.ico' />
         <meta property="og:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
 
         {/* ✅ JSON-LD Schema.org markup */}

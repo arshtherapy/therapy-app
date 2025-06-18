@@ -188,13 +188,10 @@ const Navbar = () => {
               <div key={item.path}>
                 {item.hasDropdown ? (
                   <>
-                    <Link
-                      href={item.path}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setServicesDropdownOpen(!servicesDropdownOpen);
-                      }}
-                      className={`flex items-center justify-between w-full px-4 py-3 rounded-lg text-base font-medium transition-colors ${
+                    {/* Services Button - Only toggles dropdown, doesn't navigate */}
+                    <button
+                      onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
+                      className={`flex items-center justify-between w-full px-4 py-3 rounded-lg text-base font-medium transition-colors text-left ${
                         isActive(item.path)
                           ? "text-primary bg-primary-light"
                           : "text-gray-700 hover:text-primary hover:bg-primary-light"
@@ -206,9 +203,28 @@ const Navbar = () => {
                           servicesDropdownOpen ? "rotate-180" : ""
                         }`}
                       />
-                    </Link>
+                    </button>
                     {servicesDropdownOpen && (
                       <div className="pl-6 py-1 space-y-1">
+                        {/* Main Services Page Link */}
+                        <Link
+                          href="/services"
+                          className={`block px-4 py-2.5 text-sm rounded-lg transition-colors ${
+                            pathname === "/services"
+                              ? "text-primary bg-primary-light"
+                              : "text-gray-700 hover:text-primary hover:bg-primary-light"
+                          }`}
+                          onClick={() => {
+                            setServicesDropdownOpen(false);
+                            setIsOpen(false);
+                          }}
+                        >
+                          <div className="flex items-center">
+                            <span className="mr-2 text-primary">•</span>
+                            All Services
+                          </div>
+                        </Link>
+                        {/* Individual Service Links */}
                         {servicesData.map((service) => (
                           <Link
                             key={service.id}
