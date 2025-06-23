@@ -6,20 +6,22 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 const About = () => {
-  const teamMembers = [
-    { name: "Dr. Nehal Suthar", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Zalak Suthar", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Kritika", role: "Paediatric Physiotherapist" },
-    { name: "Ms. Ruhee", role: "Rehabilitation Psychologist and Behaviour Specialist" },
-    { name: "Dr. Manjur Masuri", role: "Paediatric Rehabilitation Specialist" },
-    { name: "Dr. Sabiha Saiyed", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Naziya Shaikh", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Jasim Saiyed", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Alfez", role: "Paediatric Physiotherapist" },
-    { name: "Ms. Ruksar", role: "Rehabilitation Psychologist and Speech Therapist" },
-    { name: "Mrs. Nafisa", role: "Rehabilitation Psychologist, ABA & CBT Therapist" },
-    { name: "Mr. Bharat", role: "Sensory & Oromotor Therapist" }
-  ];
+const teamMembers = [
+  { name: "Dr. Nehal Suthar", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Zalak Suthar", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Kritika", role: "Paediatric Physiotherapist" },
+  { name: "Ms. Ruhee", role: "Rehabilitation Psychologist and Behaviour Specialist" },
+  { name: "Dr. Manjur Masuri", role: "Paediatric Rehabilitation Specialist" },
+  { name: "Dr. Sabiha Saiyed", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Naziya Shaikh", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Jasim Saiyed", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Alfez", role: "Paediatric Physiotherapist" },
+  { name: "Ms. Ruksar", role: "Rehabilitation Psychologist and Speech Therapist" },
+  { name: "Mrs. Nafisa", role: "Rehabilitation Psychologist, ABA & CBT Therapist" },
+  { name: "Mr. Bharat", role: "Sensory & Oromotor Therapist" },
+  { name: "Ms. Sumaiya", role: "Management and Coordinator" },
+  { name: "Mrs. Bhagvati", role: "Management and Coordinator" }
+];
 
   const stats = [
     { number: "1000+", label: "Happy Families", icon: Heart },
