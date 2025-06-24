@@ -67,11 +67,7 @@ const Navbar = () => {
     pathname !== null && (pathname === path || pathname.startsWith(path + "/"));
 
   // Handle mobile menu close with slight delay to allow navigation
-  const handleMobileMenuClose = () => {
-    // Close immediately for better UX, navigation will still work
-    setServicesDropdownOpen(false);
-    setIsOpen(false);
-  };
+
 
   // Handle service link click in mobile
   const handleServiceLinkClick = (href: string) => {
