@@ -66,6 +66,25 @@ const Navbar = () => {
   const isActive = (path: string) =>
     pathname !== null && (pathname === path || pathname.startsWith(path + "/"));
 
+  // Handle mobile menu close with slight delay to allow navigation
+  const handleMobileMenuClose = () => {
+    // Close immediately for better UX, navigation will still work
+    setServicesDropdownOpen(false);
+    setIsOpen(false);
+  };
+
+  // Handle service link click in mobile
+  const handleServiceLinkClick = (href: string) => {
+    // Close menus first
+    setServicesDropdownOpen(false);
+    setIsOpen(false);
+    
+    // Force navigation programmatically if needed
+    if (typeof window !== 'undefined') {
+      window.location.href = href;
+    }
+  };
+
   return (
     <nav className="backdrop-blur-xl bg-white/90 border-b border-gray-100 shadow-sm sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -214,43 +233,35 @@ const Navbar = () => {
                     {servicesDropdownOpen && (
                       <div className="pl-6 py-1 space-y-1">
                         {/* Main Services Page Link */}
-                        <Link
-                          href="/services"
-                          className={`block px-4 py-2.5 text-sm rounded-lg transition-colors ${
+                        <button
+                          onClick={() => handleServiceLinkClick("/services")}
+                          className={`block w-full text-left px-4 py-2.5 text-sm rounded-lg transition-colors ${
                             pathname === "/services"
                               ? "text-primary bg-primary-light"
                               : "text-gray-700 hover:text-primary hover:bg-primary-light"
                           }`}
-                          onClick={() => {
-                            setServicesDropdownOpen(false);
-                            setIsOpen(false);
-                          }}
                         >
                           <div className="flex items-center">
                             <span className="mr-2 text-primary">•</span>
                             All Services
                           </div>
-                        </Link>
+                        </button>
                         {/* Individual Service Links */}
                         {servicesData.map((service) => (
-                          <Link
+                          <button
                             key={service.id}
-                            href={`/services/${service.id}`}
-                            className={`block px-4 py-2.5 text-sm rounded-lg transition-colors ${
+                            onClick={() => handleServiceLinkClick(`/services/${service.id}`)}
+                            className={`block w-full text-left px-4 py-2.5 text-sm rounded-lg transition-colors ${
                               pathname === `/services/${service.id}`
                                 ? "text-primary bg-primary-light"
                                 : "text-gray-700 hover:text-primary hover:bg-primary-light"
                             }`}
-                            onClick={() => {
-                              setServicesDropdownOpen(false);
-                              setIsOpen(false);
-                            }}
                           >
                             <div className="flex items-center">
                               <span className="mr-2 text-primary">•</span>
                               {service.title}
                             </div>
-                          </Link>
+                          </button>
                         ))}
                       </div>
                     )}
