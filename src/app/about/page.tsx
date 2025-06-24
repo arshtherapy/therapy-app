@@ -302,7 +302,7 @@ const About = () => {
     </h2>
     <div className="w-20 h-1 bg-primary-500 mx-auto mb-6"></div>
     <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-      The visionary leaders behind Arsh Paediatric Therapy Centre, dedicated to transforming children's lives through exceptional care.
+      The visionary leaders behind Arsh Paediatric Therapy Centre, dedicated to transforming children&#39;s lives through exceptional care.
     </p>
   </div>
 
@@ -326,7 +326,7 @@ const About = () => {
               <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Certified OPT</span>
             </div>
             <p className="text-gray-600 leading-relaxed italic border-l-4 border-primary-200 pl-4 py-2 bg-gray-50 rounded">
-              "Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development."
+              &quot;Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development.&quot;
             </p>
           </div>
         </div>
@@ -351,7 +351,7 @@ const About = () => {
               <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Aquatic Therapist (ATNI)</span>
             </div>
             <p className="text-gray-600 leading-relaxed italic border-l-4 border-primary-200 pl-4 py-2 bg-gray-50 rounded">
-              "We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children's brighter future."
+              &quot;We wanted to build more than just a clinic - a community where families find support, resources, and hope for their children&#39;s brighter future.&quot;
             </p>
           </div>
         </div>
@@ -414,7 +414,7 @@ const About = () => {
             <div>
               <h4 className="font-semibold text-gray-900 mb-2">Growth & Impact</h4>
               <p className="text-gray-600 leading-relaxed">
-                From a modest clinic to a multi-location center, we've transformed hundreds of lives while maintaining our commitment to personalized care and clinical excellence.
+                From a modest clinic to a multi-location center, we&#39;ve transformed hundreds of lives while maintaining our commitment to personalized care and clinical excellence.
               </p>
             </div>
           </div>
@@ -473,7 +473,7 @@ const About = () => {
 
     <div className="mt-10 text-center max-w-4xl mx-auto">
       <blockquote className="text-gray-700 italic text-lg leading-relaxed border-l-4 border-primary-500 pl-6 py-2">
-        "From a small clinic to a trusted name in paediatric rehabilitation, our journey reflects our unwavering commitment to transforming children's lives through innovative, compassionate care."
+        &quot;From a small clinic to a trusted name in paediatric rehabilitation, our journey reflects our unwavering commitment to transforming children&#39;s lives through innovative, compassionate care.&quot;
       </blockquote>
       <div className="mt-4 text-gray-500 font-medium">
         — Dr. Nilofar & Dr. Aadil Shaikh
@@ -518,7 +518,7 @@ const About = () => {
                 Personalized Treatment Plans
               </h2>
               <p className="text-gray-700 max-w-4xl mx-auto leading-relaxed mb-6">
-                We understand that every child is unique. That's why we create individualized treatment plans that address each child's specific needs and strengths.
+                We understand that every child is unique. That&#39;s why we create individualized treatment plans that address each child&#39;s specific needs and strengths.
               </p>
               <p className="text-gray-700 max-w-4xl mx-auto leading-relaxed mb-8">
                 Our therapists use a variety of evidence-based methods, including play therapy, sensory integration, behavioral techniques, and family coaching to ensure holistic development and positive outcomes.
