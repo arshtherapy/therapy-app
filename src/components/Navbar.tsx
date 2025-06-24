@@ -18,6 +18,11 @@ const servicesData = [
   { id: "aquatic-therapy", title: "Aquatic Therapy" },
   { id: "visual-rehabilitation", title: "Visual Rehabilitation" },
   { id: "orthosis-equipments", title: "Orthosis & Equipments" },
+  { id: "chest-physiotherapy", title: "Chest Physiotherapy" },
+  { id: "primitive-reflexes-integration", title: "Primitive Reflexes Integration" },
+  { id: "special-education", title: "Special Education" },
+  { id: "cognitive-behavioral-therapy", title: "Cognitive Behavioral Therapy (CBT)" },
+  { id: "verbal-behavior-therapy", title: "Verbal Behavior Therapy (VBT)" },
 ];
 
 const Navbar = () => {
