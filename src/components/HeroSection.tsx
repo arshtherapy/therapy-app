@@ -128,22 +128,22 @@ const HeroSection = () => {
 
   const images = [
     {
-      src: "https://res.cloudinary.com/dicvxuysv/image/upload/v1749281270/WhatsApp_Image_2025-06-03_at_11.03.18_hlb0lp.jpg",
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-5.jpeg",
       alt: "Kids enjoying therapy session",
       className: "z-10 hover:z-20"
     },
     {
-      src: "https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg",
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-3.jpeg",
       alt: "Child with therapist",
       className: "z-0 hover:z-20"
     },
     {
-      src: "https://res.cloudinary.com/dicvxuysv/image/upload/v1749292834/WhatsApp_Image_2025-06-03_at_11.03.21_hbrera.jpg",
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-4.jpeg",
       alt: "Group therapy session",
       className: "z-10 hover:z-20"
     },
     {
-      src: "https://res.cloudinary.com/dicvxuysv/image/upload/v1749292834/WhatsApp_Image_2025-06-03_at_11.03.18_1_ebjzkm.jpg",
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-1.jpeg",
       alt: "One-on-one therapy",
       className: "z-0 hover:z-20"
     }

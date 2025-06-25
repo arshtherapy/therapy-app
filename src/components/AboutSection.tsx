@@ -120,7 +120,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-10"></div>
               <div className="absolute inset-0 bg-primary-500/10 z-0"></div>
               <Image
-                src="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg"
+                src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-3.jpeg"
                 alt="Child receiving therapy at Arsh paediatric Rehabilitation Center"
                 width={600}
                 height={720}

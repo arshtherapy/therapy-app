@@ -309,37 +309,54 @@ const About = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto px-4">
     {/* Founder 1 */}
     <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-      <div className="p-8">
-        <div className="flex flex-col items-center">
-          <div className="w-40 h-40 bg-gradient-to-br from-primary-100 to-primary-50 rounded-full flex items-center justify-center text-primary-600 text-5xl font-bold mb-6 border-4 border-white shadow-md">
-            NS
-          </div>
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">
-              Dr. Nilofar Vora Shaikh
-            </h3>
-            <div className="flex flex-wrap justify-center gap-2 mb-4">
-              <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">BPT</span>
-              <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">T/NDT</span>
-              <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Aquatic Therapist (ATNI)</span>
-              <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Certified RBT</span>
-              <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Certified OPT</span>
-            </div>
-            <p className="text-gray-600 leading-relaxed italic border-l-4 border-primary-200 pl-4 py-2 bg-gray-50 rounded">
-              &quot;Our vision was to create a center where children receive comprehensive care under one roof, with a team that works collaboratively to address all aspects of their development.&quot;
-            </p>
-          </div>
+  <div className="p-8">
+    <div className="flex flex-col items-center">
+      {/* Profile Image Wrapper */}
+        <Image 
+          src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/nilofar-profile.jpeg"
+          alt="Dr. Nilofar Vora Shaikh"
+          width={200}
+          height={200}
+          className="w-32 h-32 rounded-full object-cover"
+        />
+
+      {/* Text Content */}
+      <div className="text-center">
+        <h3 className="text-2xl font-bold text-gray-900 mb-2">
+          Dr. Nilofar Vora Shaikh
+        </h3>
+
+        {/* Qualification Badges */}
+        <div className="flex flex-wrap justify-center gap-2 mb-4">
+          <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">BPT</span>
+          <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">T/NDT</span>
+          <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Aquatic Therapist (ATNI)</span>
+          <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Certified RBT</span>
+          <span className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium">Certified OPT</span>
         </div>
+
+        {/* Quote */}
+        <p className="text-gray-600 leading-relaxed italic border-l-4 border-primary-200 pl-4 py-2 bg-gray-50 rounded">
+          &quot;Our vision was to create a center where children receive comprehensive care under one roof — 
+          a team that works collaboratively to address every aspect of their development.&quot;
+        </p>
       </div>
     </div>
+  </div>
+</div>
+
 
     {/* Founder 2 */}
     <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
       <div className="p-8">
         <div className="flex flex-col items-center">
-          <div className="w-40 h-40 bg-gradient-to-br from-primary-100 to-primary-50 rounded-full flex items-center justify-center text-primary-600 text-5xl font-bold mb-6 border-4 border-white shadow-md">
-            AS
-          </div>
+          <Image
+            src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/adil-profile.jpeg"
+            alt="Dr. Aadil Shaikh"
+            width={200}
+            height={200}
+            className="w-32 h-32 rounded-full object-cover"
+          />
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
               Dr. Aadil Shaikh
@@ -435,6 +452,7 @@ const About = () => {
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Her compassionate approach and clinical excellence make her a trusted partner for families navigating developmental challenges.
+                Her impact extends beyond the clinic—she serves as a clinical therapist for DMD drug trials in India and is deeply involved in the SMA community, conducting awareness webinars and co-founding the SMA Clinic of Gujarat.
               </p>
             </div>
           </div>
