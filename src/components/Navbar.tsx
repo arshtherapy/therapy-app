@@ -19,10 +19,14 @@ const servicesData = [
   { id: "visual-rehabilitation", title: "Visual Rehabilitation" },
   { id: "orthosis-equipments", title: "Orthosis & Equipments" },
   { id: "chest-physiotherapy", title: "Chest Physiotherapy" },
-  { id: "primitive-reflexes-integration", title: "Primitive Reflexes Integration" },
+  { id: "cognitive-behavioral-therapy", title: "Cognitive Behaviour Therapy (CBT)" },
+  { id: "verbal-behavior-training", title: "Verbal Behaviour Training (VBT)" },
+  { id: "brain-gym", title: "Brain Gym" },
+  { id: "play-therapy-floor-time", title: "Play Therapy and Floor Time" },
+  { id: "primitive-reflex-therapy", title: "Primitive Reflex Therapy" },
   { id: "special-education", title: "Special Education" },
-  { id: "cognitive-behavioral-therapy", title: "Cognitive Behavioral Therapy (CBT)" },
-  { id: "verbal-behavior-therapy", title: "Verbal Behavior Therapy (VBT)" },
+  { id: "paediatric-counselling", title: "Paediatric Counselling" },
+  { id: "school-readiness-group-program", title: "School Readiness and Group Program" }
 ];
 
 const Navbar = () => {
@@ -66,16 +70,9 @@ const Navbar = () => {
   const isActive = (path: string) =>
     pathname !== null && (pathname === path || pathname.startsWith(path + "/"));
 
-  // Handle mobile menu close with slight delay to allow navigation
-
-
-  // Handle service link click in mobile
   const handleServiceLinkClick = (href: string) => {
-    // Close menus first
     setServicesDropdownOpen(false);
     setIsOpen(false);
-    
-    // Force navigation programmatically if needed
     if (typeof window !== 'undefined') {
       window.location.href = href;
     }
@@ -122,7 +119,7 @@ const Navbar = () => {
                       <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${servicesDropdownOpen ? "rotate-180" : ""}`} />
                     </Link>
                     
-                    {/* Services Dropdown */}
+                    {/* Services Dropdown with scroll */}
                     {servicesDropdownOpen && (
                       <div
                         ref={dropdownRef}
@@ -132,7 +129,7 @@ const Navbar = () => {
                             setServicesDropdownOpen(false);
                           }
                         }, 150)}
-                        className="absolute left-0 mt-1 w-56 rounded-xl shadow-lg bg-white border border-gray-100 py-2 z-50 animate-fade-in"
+                        className="absolute left-0 mt-1 w-56 rounded-xl shadow-lg bg-white border border-gray-100 py-2 z-50 animate-fade-in max-h-[70vh] overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 hover:[&::-webkit-scrollbar-thumb]:bg-gray-400 pr-1"
                       >
                         {servicesData.map((service) => (
                           <Link
@@ -170,10 +167,10 @@ const Navbar = () => {
             
             {/* Call Button */}
             <a href="tel:+91-9998162680" className="flex items-center px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary hover:bg-primary-light/50 transition-all duration-300">
-            <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 shadow-md hover:shadow-lg transition-all duration-300 dark:bg-primary dark:hover:bg-primary/80 group">
-              <Phone className="bg-primary w-4 h-4 mr-2 group-hover:animate-pulse" />
-              Call Now
-            </Button>
+              <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 shadow-md hover:shadow-lg transition-all duration-300 dark:bg-primary dark:hover:bg-primary/80 group">
+                <Phone className="bg-primary w-4 h-4 mr-2 group-hover:animate-pulse" />
+                Call Now
+              </Button>
             </a>
           </div>
 
@@ -210,7 +207,6 @@ const Navbar = () => {
               <div key={item.path}>
                 {item.hasDropdown ? (
                   <>
-                    {/* Services Button - Only toggles dropdown, doesn't navigate */}
                     <button
                       onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                       className={`flex items-center justify-between w-full px-4 py-3 rounded-lg text-base font-medium transition-colors text-left ${
@@ -227,8 +223,7 @@ const Navbar = () => {
                       />
                     </button>
                     {servicesDropdownOpen && (
-                      <div className="pl-6 py-1 space-y-1">
-                        {/* Main Services Page Link */}
+                      <div className="pl-6 py-1 space-y-1 max-h-[60vh] overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 hover:[&::-webkit-scrollbar-thumb]:bg-gray-400 pr-1">
                         <button
                           onClick={() => handleServiceLinkClick("/services")}
                           className={`block w-full text-left px-4 py-2.5 text-sm rounded-lg transition-colors ${
@@ -242,7 +237,6 @@ const Navbar = () => {
                             All Services
                           </div>
                         </button>
-                        {/* Individual Service Links */}
                         {servicesData.map((service) => (
                           <button
                             key={service.id}
@@ -278,7 +272,6 @@ const Navbar = () => {
               </div>
             ))}
             
-            {/* Mobile Call Button */}
             <Button 
               className="w-full mt-3 bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary-darker text-white rounded-full px-6 py-3 shadow-md"
               onClick={() => setIsOpen(false)}
@@ -289,24 +282,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
-      {/* Animations */}
-      <style jsx global>{`
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(-5px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes rotateIn {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        .animate-fade-in {
-          animation: fadeIn 0.2s ease-out forwards;
-        }
-        .animate-rotate-in {
-          animation: rotateIn 0.3s ease-out;
-        }
-      `}</style>
     </nav>
   );
 };
