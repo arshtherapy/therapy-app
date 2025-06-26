@@ -4,7 +4,7 @@ export const servicesData = [
     title: "Physical Therapy",
     description: "Specialized physical therapy to improve mobility, strength, and motor skills in children.",
     icon: "🏃‍♂️",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-1.jpeg",
     benefits: [
       "Improved gross motor skills",
       "Enhanced balance and coordination",
@@ -25,7 +25,7 @@ export const servicesData = [
     title: "Behaviour Therapy (ABA)",
     description: "Evidence-based behavioral therapy for children with Autism Spectrum Disorder.",
     icon: "🧩",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-1.jpeg",
     benefits: [
       "Behavior management and replacement of social appropriate behavior",
       "Development of academic and life skills",
@@ -44,7 +44,7 @@ export const servicesData = [
     title: "Oral Placement Therapy (OPT)",
     description: "Specialized therapy for improving oral-motor coordination and speech clarity.",
     icon: "👅",
-    image: "https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-1.jpeg",
     benefits: [
       "Jaw,lip and tounge strengthening and coordination",
       "Better articulation and feeding",
@@ -84,7 +84,7 @@ export const servicesData = [
     title: "Online Therapy",
     description: "Virtual therapy sessions that bring expert care to your home.",
     icon: "💻",
-    image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/online-therapy/online-1.jpeg",
     benefits: [
       "Access to expert therapists remotely",
       "Convenient and flexible scheduling",
@@ -103,7 +103,7 @@ export const servicesData = [
     title: "Occupational Therapy",
     description: "Helping children develop essential daily living and fine motor skills.",
     icon: "🧠",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-1.jpeg",
     benefits: [
       "Daily living task independence",
       "Fine motor and coordination skills",
@@ -122,7 +122,7 @@ export const servicesData = [
     title: "Sensory Integration",
     description: "Therapy focused on improving the brain's ability to process sensory information.",
     icon: "🌀",
-    image: "https://images.unsplash.com/photo-1547327132-5d20850c62f5?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-1.jpeg",
     benefits: [
       "Better sensory processing and regulation",
       "Increased calmness and behavior control",
@@ -141,7 +141,7 @@ export const servicesData = [
     title: "Oro-motor & Speech Therapy",
     description: "Comprehensive therapy for speech and feeding difficulties related to oral-motor function.",
     icon: "🗣️",
-    image: "https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-1.jpeg",
     benefits: [
       "Improved speech production",
       "Enhanced feeding skills",
@@ -160,7 +160,7 @@ export const servicesData = [
     title: "Visual Rehabilitation",
     description: "Therapy focused on improving functional vision and visual motor integration.",
     icon: "👁️",
-    image: "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visual-3.jpeg",
     benefits: [
       "Improved tracking and eye coordination",
       "Better reading and spatial awareness",
@@ -179,7 +179,7 @@ export const servicesData = [
     title: "Aquatic Therapy",
     description: "Therapy in water to improve mobility, coordination, and strength through low-impact exercises.",
     icon: "🏊‍♂️",
-    image: "https://images.unsplash.com/photo-1573497169404-736fa6c9ebd7?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-1.jpeg",
     benefits: [
       "Increased muscle strength and tone",
       "Reduce stress on joint and increase Range of motion",
