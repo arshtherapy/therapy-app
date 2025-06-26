@@ -167,7 +167,8 @@ const Gallery = () => {
       alt: "Child-friendly therapy environment",
       category: "Clinic Photos",
       description: "Our bright and engaging therapy space designed for children's comfort"
-    }
+    },
+    
   ];
 
   const [shuffledImages, setShuffledImages] = useState<GalleryImage[]>([]);

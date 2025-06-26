@@ -133,13 +133,13 @@ const VisualRehabilitationPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
                   Download Our Vision Therapy Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visula-1.jpeg"
                   alt="Child receiving visual rehabilitation therapy"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const VisualRehabilitationPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visual-2.jpeg"
                       alt="Child doing eye tracking exercises"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const VisualRehabilitationPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visual-3.jpeg"
                       alt="Visual perception activities"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const VisualRehabilitationPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visula-4.jpeg"
                       alt="Therapist working with child on visual exercises"
                       fill
                       className="object-cover"
@@ -383,6 +383,7 @@ const VisualRehabilitationPage = () => {
                   Schedule Evaluation
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-purple-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -390,6 +391,7 @@ const VisualRehabilitationPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

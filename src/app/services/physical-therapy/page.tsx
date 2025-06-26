@@ -138,7 +138,7 @@ const PhysicalTherapyPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-1.jpeg"
                   alt="Child doing physical therapy exercises"
                   fill
                   className="object-cover"
@@ -216,7 +216,7 @@ const PhysicalTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1594736797933-d0d76ff64b9b?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-2.jpeg"
                       alt="Physical therapist working with child"
                       fill
                       className="object-cover"
@@ -224,7 +224,7 @@ const PhysicalTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-3.jpeg"
                       alt="Child doing balance exercises"
                       fill
                       className="object-cover"
@@ -232,7 +232,7 @@ const PhysicalTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-4.jpeg"
                       alt="Children in physical therapy group session"
                       fill
                       className="object-cover"
@@ -440,6 +440,7 @@ const PhysicalTherapyPage = () => {
                   Schedule Assessment
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-emerald-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -447,6 +448,7 @@ const PhysicalTherapyPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

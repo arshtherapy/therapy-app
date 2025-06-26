@@ -135,13 +135,13 @@ const OromotorSpeechPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-orange-600 hover:bg-orange-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-orange-600 hover:bg-orange-700">
                   Download Speech Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-5.jpeg"
                   alt="Speech therapist working with child on oral-motor exercises"
                   fill
                   className="object-cover"
@@ -318,7 +318,7 @@ const OromotorSpeechPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-1.jpeg"
                       alt="Oro-motor exercises with therapy tools"
                       fill
                       className="object-cover"
@@ -326,7 +326,7 @@ const OromotorSpeechPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-2.jpeg"
                       alt="Speech therapy session with child"
                       fill
                       className="object-cover"
@@ -334,7 +334,7 @@ const OromotorSpeechPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-4.jpeg"
                       alt="Feeding therapy with family involvement"
                       fill
                       className="object-cover"
@@ -550,6 +550,7 @@ const OromotorSpeechPage = () => {
                   Schedule Evaluation
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-orange-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -557,6 +558,7 @@ const OromotorSpeechPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

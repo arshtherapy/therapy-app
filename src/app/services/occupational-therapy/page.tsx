@@ -132,13 +132,13 @@ const OccupationalTherapyPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
                   Download Our OT Brochure
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-1.jpeg"
                   alt="Child working with occupational therapist"
                   fill
                   className="object-cover"
@@ -215,37 +215,23 @@ const OccupationalTherapyPage = () => {
                 {
                   title: "Sensory Processing Disorder",
                   description: "Helping children regulate their responses to sensory input for better daily functioning",
-                  image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                   title: "ADHD",
                   description: "Improving focus, organization, and task completion skills",
-                  image: "https://images.unsplash.com/photo-1623947441374-422a8077cfb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                   title: "Autism Spectrum Disorder",
                   description: "Developing social participation, play skills, and sensory regulation",
-                  image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
                 },
                 {
                   title: "Learning Disabilities",
                   description: "Enhancing fine motor and visual perceptual skills for academic success",
-                  image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
                 }
               ].map((condition, index) => (
-                <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                  <div className="relative h-48 w-full">
-                    <Image
-                      src={condition.image}
-                      alt={condition.title}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{condition.title}</h3>
-                    <p className="text-gray-600">{condition.description}</p>
-                  </div>
+               <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+                  <h3 className="text-xl font-semibold text-gray-900">{condition.title}</h3>
+                  <p className="text-gray-600 mt-2">{condition.description}</p>
                 </div>
               ))}
             </div>
@@ -260,7 +246,7 @@ const OccupationalTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-2.jpeg"
                       alt="Therapist working with child on fine motor skills"
                       fill
                       className="object-cover"
@@ -268,7 +254,7 @@ const OccupationalTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1623947441374-422a8077cfb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-3.jpeg"
                       alt="Child doing sensory activities"
                       fill
                       className="object-cover"
@@ -276,7 +262,7 @@ const OccupationalTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-4.jpeg"
                       alt="Parent and therapist working together"
                       fill
                       className="object-cover"
@@ -390,6 +376,7 @@ const OccupationalTherapyPage = () => {
                   Schedule Evaluation
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-green-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -397,6 +384,7 @@ const OccupationalTherapyPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

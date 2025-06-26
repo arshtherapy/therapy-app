@@ -133,13 +133,13 @@ const OralPlacementTherapyPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-orange-600 hover:bg-orange-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-orange-600 hover:bg-orange-700">
                   Download OPT Information Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-1.jpeg"
                   alt="Child receiving oral placement therapy"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const OralPlacementTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-1.jpeg"
                       alt="OPT therapy tools and exercises"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const OralPlacementTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-2.jpeg"
                       alt="Child practicing oral motor exercises"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const OralPlacementTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-2.jpeg"
                       alt="Therapist working with child on oral placement"
                       fill
                       className="object-cover"
@@ -442,6 +442,7 @@ const OralPlacementTherapyPage = () => {
                   Schedule Assessment
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-orange-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -449,6 +450,7 @@ const OralPlacementTherapyPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

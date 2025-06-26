@@ -133,13 +133,13 @@ const ABAAutismTherapyPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-green-600 hover:bg-green-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-green-600 hover:bg-green-700">
                   Download Our ABA Therapy Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-1.jpeg"
                   alt="Child receiving ABA therapy"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const ABAAutismTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1549056572-75914d5d5fd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-1.jpeg"
                       alt="Therapist working with autistic child"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const ABAAutismTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-2.jpeg"
                       alt="Child doing ABA therapy activities"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const ABAAutismTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-2.jpeg"
                       alt="Parent and therapist working together"
                       fill
                       className="object-cover"
@@ -369,30 +369,33 @@ const ABAAutismTherapyPage = () => {
 
         {/* Final CTA */}
         <section className="py-16 bg-gradient-to-r from-green-600 to-teal-700 text-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Begin Your Child&#39;s ABA Therapy Journey
-            </h2>
-            <p className="text-xl text-green-100 mb-8">
-              Our certified ABA therapists are ready to help your child develop essential skills and reach their full potential.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" passHref>
-                <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all hover:scale-105">
-                  <Calendar className="w-5 h-5 mr-2" />
-                  Schedule Evaluation
-                </Button>
-              </Link>
-              <Button 
-                variant="outline" 
-                className="bg-green-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
-              >
-                <Phone className="w-5 h-5 mr-2" />
-                Call Us Now
-              </Button>
-            </div>
-          </div>
-        </section>
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-6">
+      Begin Your Child&#39;s ABA Therapy Journey
+    </h2>
+    <p className="text-xl text-green-100 mb-8">
+      Our certified ABA therapists are ready to help your child develop essential skills and reach their full potential.
+    </p>
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Link href="/contact" passHref>
+        <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all hover:scale-105">
+          <Calendar className="w-5 h-5 mr-2" />
+          Schedule Evaluation
+        </Button>
+      </Link>
+      
+      <Link href="tel:+91-9998162680" passHref>
+        <Button 
+          variant="secondary"
+          className="bg-white text-green-600 hover:bg-green-50 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
+        >
+          <Phone className="w-5 h-5 mr-2" />
+          Call Us Now
+        </Button>
+      </Link>
+    </div>
+  </div>
+</section>
       </main>
     </>
   );

@@ -133,13 +133,13 @@ const SensoryIntegrationPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-purple-600 hover:bg-purple-700">
                   Download Sensory Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1547327132-5d20850c62f5?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-3.jpeg"
                   alt="Child engaging in sensory integration therapy activities"
                   fill
                   className="object-cover"
@@ -324,7 +324,7 @@ const SensoryIntegrationPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-1.jpeg"
                       alt="Child using sensory swing equipment"
                       fill
                       className="object-cover"
@@ -332,7 +332,7 @@ const SensoryIntegrationPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-2.jpeg"
                       alt="Sensory play activities"
                       fill
                       className="object-cover"
@@ -340,7 +340,7 @@ const SensoryIntegrationPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-4.jpeg"
                       alt="Therapist guiding sensory integration activities"
                       fill
                       className="object-cover"
@@ -501,6 +501,7 @@ const SensoryIntegrationPage = () => {
                   Schedule Assessment
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-purple-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -508,6 +509,7 @@ const SensoryIntegrationPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>

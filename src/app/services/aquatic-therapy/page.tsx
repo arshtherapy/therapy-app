@@ -133,13 +133,13 @@ const AquaticTherapyPage = () => {
                     </div>
                   ))}
                 </div>
-                <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-blue-600 hover:bg-blue-700">
+                {/* <Button className="px-8 py-4 text-lg font-semibold rounded-full bg-blue-600 hover:bg-blue-700">
                   Download Pool Safety Guide
-                </Button>
+                </Button> */}
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1573497169404-736fa6c9ebd7?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-1.jpeg"
                   alt="Child doing aquatic therapy exercises in therapeutic pool"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const AquaticTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-3.jpeg"
                       alt="Therapist assisting child in pool"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const AquaticTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1620000617482-821324eb9a14?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-2.jpeg"
                       alt="Child doing water exercises"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const AquaticTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1494137656793-0453c33de4ea?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-1.jpeg"
                       alt="Therapeutic pool facility"
                       fill
                       className="object-cover"
@@ -441,6 +441,7 @@ const AquaticTherapyPage = () => {
                   Schedule Pool Session
                 </Button>
               </Link>
+              <Link href="tel:+91-9998162680" passHref>
               <Button 
                 variant="outline" 
                 className="bg-blue-600 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all hover:scale-105"
@@ -448,6 +449,7 @@ const AquaticTherapyPage = () => {
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </Button>
+              </Link>
             </div>
           </div>
         </section>
