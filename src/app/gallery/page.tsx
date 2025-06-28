@@ -12,8 +12,7 @@ interface GalleryImage {
   description: string;
 }
 
-const Gallery = () => {
-  const galleryImages: GalleryImage[] = [
+  const GALLERY_IMAGES: GalleryImage[] = [
     {
       id: 1,
       src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-1.jpeg",
@@ -168,9 +167,11 @@ const Gallery = () => {
       category: "Clinic Photos",
       description: "Our bright and engaging therapy space designed for children's comfort"
     },
-    
+
   ];
 
+  
+const Gallery = () => {
   const [shuffledImages, setShuffledImages] = useState<GalleryImage[]>([]);
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -185,12 +186,12 @@ const Gallery = () => {
 
   useEffect(() => {
     const filtered = activeCategory === "All" 
-      ? galleryImages 
-      : galleryImages.filter(img => img.category === activeCategory);
+      ? GALLERY_IMAGES 
+      : GALLERY_IMAGES.filter(img => img.category === activeCategory);
     setShuffledImages(shuffleArray(filtered));
   }, [activeCategory]);
 
-  const categories = ["All", ...Array.from(new Set(galleryImages.map(img => img.category)))];
+  const categories = ["All", ...Array.from(new Set(GALLERY_IMAGES.map(img => img.category)))];
 
   return (
     <div className="min-h-screen py-16">
@@ -281,5 +282,6 @@ const Gallery = () => {
     </div>
   );
 };
+
 
 export default Gallery;
