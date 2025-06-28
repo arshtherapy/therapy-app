@@ -139,7 +139,7 @@ const EarlyInterventionPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1581609793485-7e4fd1e3f9a2?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/early-intervention/early-2.jpeg"
                   alt="Early intervention therapy session with young child"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const EarlyInterventionPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/early-intervention/early-1.jpeg"
                       alt="Therapist working with toddler"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const EarlyInterventionPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/early-intervention/early-2.jpeg"
                       alt="Child engaging in developmental play"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const EarlyInterventionPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/early-intervention/early-1.jpeg"
                       alt="Family participating in early intervention session"
                       fill
                       className="object-cover"

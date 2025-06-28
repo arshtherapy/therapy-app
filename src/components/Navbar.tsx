@@ -17,16 +17,16 @@ const servicesData = [
   { id: "oromotor-speech", title: "Oro-motor & Speech Therapy" },
   { id: "aquatic-therapy", title: "Aquatic Therapy" },
   { id: "visual-rehabilitation", title: "Visual Rehabilitation" },
-  // { id: "orthosis-equipments", title: "Orthosis & Equipments" },
-  // { id: "chest-physiotherapy", title: "Chest Physiotherapy" },
-  // { id: "cognitive-behavioral-therapy", title: "Cognitive Behaviour Therapy (CBT)" },
-  // { id: "verbal-behavior-training", title: "Verbal Behaviour Training (VBT)" },
-  // { id: "brain-gym", title: "Brain Gym" },
-  // { id: "play-therapy-floor-time", title: "Play Therapy and Floor Time" },
-  // { id: "primitive-reflex-therapy", title: "Primitive Reflex Therapy" },
-  // { id: "special-education", title: "Special Education" },
-  // { id: "paediatric-counselling", title: "Paediatric Counselling" },
-  // { id: "school-readiness-group-program", title: "School Readiness and Group Program" }
+  { id: "orthosis-equipments", title: "Orthosis & Equipments" },
+  { id: "chest-physiotherapy", title: "Chest Physiotherapy" },
+  { id: "cognitive-behavioral-therapy", title: "Cognitive Behaviour Therapy (CBT)" },
+  { id: "verbal-behavior-training", title: "Verbal Behaviour Training (VBT)" },
+  { id: "brain-gym", title: "Brain Gym" },
+  { id: "play-therapy-floor-time", title: "Play Therapy and Floor Time" },
+  { id: "primitive-reflex-therapy", title: "Primitive Reflex Therapy" },
+  { id: "special-education", title: "Special Education" },
+  { id: "paediatric-counselling", title: "Paediatric Counselling" },
+  { id: "school-readiness-group-program", title: "School Readiness and Group Program" }
 ];
 
 const Navbar = () => {
