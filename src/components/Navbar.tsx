@@ -24,7 +24,7 @@ const servicesData = [
   { id: "brain-gym", title: "Brain Gym" },
   { id: "play-therapy-floor-time", title: "Play Therapy and Floor Time" },
   { id: "primitive-reflex-therapy", title: "Primitive Reflex Therapy" },
-  { id: "special-education", title: "Special Education" },
+  // { id: "special-education", title: "Special Education" },
   { id: "paediatric-counselling", title: "Paediatric Counselling" },
   { id: "school-readiness-group-program", title: "School Readiness and Group Program" }
 ];
