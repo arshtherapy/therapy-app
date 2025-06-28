@@ -115,7 +115,7 @@ const SpecialEducationPage = () => {
                   Personalized Special Education Programs
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Our special education services provide individualized instruction tailored to each child's unique learning style, abilities, and challenges. We focus on building academic skills while addressing developmental needs.
+                  Our special education services provide individualized instruction tailored to each child&#39;s unique learning style, abilities, and challenges. We focus on building academic skills while addressing developmental needs.
                 </p>
                 <div className="space-y-4 mb-8">
                   {[
@@ -242,7 +242,7 @@ const SpecialEducationPage = () => {
                   Our Special Education Methodology
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We combine evidence-based teaching strategies with individualized attention to meet each child's unique learning needs.
+                  We combine evidence-based teaching strategies with individualized attention to meet each child&#39;s unique learning needs.
                 </p>
                 <div className="space-y-6">
                   {[
@@ -370,7 +370,7 @@ const SpecialEducationPage = () => {
               Discover How Special Education Can Help Your Child
             </h2>
             <p className="text-xl text-amber-100 mb-8">
-              Our team is ready to assess your child's needs and create a personalized learning plan.
+              Our team is ready to assess your child&#39;s needs and create a personalized learning plan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>

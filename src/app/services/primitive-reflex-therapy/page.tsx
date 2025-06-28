@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import {  CheckCircle, Phone, Calendar,  Clock, Users, Award, Activity, Brain, Move, Target } from 'lucide-react';
+import {  CheckCircle, Phone, Calendar, Users, Award, Activity, Brain, Move, Target } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -66,7 +66,7 @@ const PrimitiveReflexTherapyPage = () => {
                 Primitive Reflex <span className="text-yellow-300">Integration Therapy</span>
               </h1>
               <p className="text-xl text-indigo-100 max-w-3xl mx-auto leading-relaxed">
-                Addressing retained primitive reflexes that may be impacting your child's development, learning, and behavior.
+                Addressing retained primitive reflexes that may be impacting your child&#39;s development, learning, and behavior.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" passHref>
@@ -367,10 +367,10 @@ const PrimitiveReflexTherapyPage = () => {
         <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Start Your Child's Reflex Integration Journey
+              Start Your Child&#39;s Reflex Integration Journey
             </h2>
             <p className="text-xl text-indigo-100 mb-8">
-              Our trained therapists can assess your child's primitive reflexes and create a personalized integration plan.
+              Our trained therapists can assess your child&#39;s primitive reflexes and create a personalized integration plan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>

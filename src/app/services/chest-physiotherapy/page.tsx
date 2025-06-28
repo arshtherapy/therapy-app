@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { CheckCircle, Phone, Users, Award, Activity, Target, Heart, Zap, Waves, Droplets } from 'lucide-react';
+import { CheckCircle, Phone, Users, Award, Activity, Target, Heart, Zap, Waves } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -242,7 +242,7 @@ const ChestPhysiotherapyPage = () => {
                   Our Chest Physiotherapy Process
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We provide individualized respiratory therapy programs using a combination of manual techniques and specialized equipment tailored to each child's needs.
+                  We provide individualized respiratory therapy programs using a combination of manual techniques and specialized equipment tailored to each child&#39;s needs.
                 </p>
                 <div className="space-y-6">
                   {[

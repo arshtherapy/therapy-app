@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { CheckCircle, Phone, Users, Award, Activity, Target, Heart, Zap, MessageSquare, Mic, Ear, Languages } from 'lucide-react';
+import { CheckCircle, Phone, Users, Activity, Target, Zap, MessageSquare, Mic, Ear, Languages } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -420,7 +420,7 @@ const VerbalBehaviorTrainingPage = () => {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-cyan-700 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Unlock Your Child's Communication Potential
+              Unlock Your Child&#39;s Communication Potential
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Our Verbal Behavior Training program provides evidence-based strategies to develop meaningful communication skills.

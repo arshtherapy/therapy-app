@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { CheckCircle, Phone, Calendar, Clock, Users, Heart, Activity, Smile, Shield, Brain } from 'lucide-react';
+import { CheckCircle, Phone, Calendar, Users, Heart, Activity, Smile, Shield, Brain } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -242,7 +242,7 @@ const PaediatricCounsellingPage = () => {
                   Our Therapeutic Methods
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We use developmentally appropriate, evidence-based approaches tailored to each child's age, needs, and personality.
+                  We use developmentally appropriate, evidence-based approaches tailored to each child&#39;s age, needs, and personality.
                 </p>
                 <div className="space-y-6">
                   {[
@@ -373,7 +373,7 @@ const PaediatricCounsellingPage = () => {
               Help Your Child Thrive Emotionally
             </h2>
             <p className="text-xl text-pink-100 mb-8">
-              Our compassionate counselors are ready to support your child's mental health and wellbeing.
+              Our compassionate counselors are ready to support your child&#39;s mental health and wellbeing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>

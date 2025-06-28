@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import {  CheckCircle, Phone, Calendar,  Clock, Users, Award, Activity, Heart, Smile, Play } from 'lucide-react';
+import {  CheckCircle, Phone, Calendar, Users, Award, Activity, Heart, Smile, Play } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -115,7 +115,7 @@ const PlayTherapyPage = () => {
                   Child-Centered Play Therapy & DIR/Floortime
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Our play-based therapy follows the child's natural interests and emotions to build essential developmental capacities through joyful, meaningful interactions.
+                  Our play-based therapy follows the child&#39;s natural interests and emotions to build essential developmental capacities through joyful, meaningful interactions.
                 </p>
                 <div className="space-y-4 mb-8">
                   {[
@@ -242,7 +242,7 @@ const PlayTherapyPage = () => {
                   The DIR/Floortime Model
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We use the Developmental, Individual-differences, Relationship-based (DIR) model with Floortime techniques to support children's development through play.
+                  We use the Developmental, Individual-differences, Relationship-based (DIR) model with Floortime techniques to support children&#39;s development through play.
                 </p>
                 <div className="space-y-6">
                   {[
@@ -367,7 +367,7 @@ const PlayTherapyPage = () => {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Start Your Child's Play Therapy Journey
+              Start Your Child&#39;s Play Therapy Journey
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Our compassionate therapists are ready to help your child connect, communicate and thrive through play.

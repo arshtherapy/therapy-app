@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { CheckCircle, Phone, Users, Award, Activity, Target, Heart, Zap, Brain, BookOpen, Eye, Hand } from 'lucide-react';
+import { CheckCircle, Phone, Award, Target, Heart, Brain, BookOpen, Eye, Hand } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -112,7 +112,7 @@ const BrainGymPage = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                  Activate Your Child's Learning Potential
+                  Activate Your Child&#39;s Learning Potential
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
                   Our Brain Gym program uses simple, specific movements to integrate the brain and body, improving focus, memory, comprehension, and physical coordination. These exercises help children overcome learning challenges and perform at their best.
@@ -242,7 +242,7 @@ const BrainGymPage = () => {
                   Our Brain Gym Methodology
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  We implement the 26 Brain Gym® movements in a structured yet playful way, customized to each child's developmental needs and learning goals.
+                  We implement the 26 Brain Gym® movements in a structured yet playful way, customized to each child&#39;s developmental needs and learning goals.
                 </p>
                 <div className="space-y-6">
                   {[
@@ -420,7 +420,7 @@ const BrainGymPage = () => {
         <section className="py-16 bg-gradient-to-r from-blue-600 to-cyan-700 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Unlock Your Child's Learning Potential
+              Unlock Your Child&#39;s Learning Potential
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Our Brain Gym program provides simple, effective tools to enhance focus, coordination and academic performance.
