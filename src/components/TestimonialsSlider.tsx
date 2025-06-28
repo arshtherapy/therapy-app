@@ -14,24 +14,24 @@ const TestimonialsSlider = () => {
 
   const testimonials = [
     {
-      name: "Priya Sharma",
+      name: "Sonu Mistry",
       location: "Ahmedabad",
       rating: 5,
-      text: "The speech therapy sessions have been life-changing for my son. We've seen remarkable improvement in just 3 months.",
+      text: "A great pediatric physiotherapy clinic with highly professional and caring staff. They’re very patient, knowledgeable, and dedicated towards every child’s progress. Highly recommend",
       therapy: "Speech Therapy"
     },
     {
-      name: "Rajesh Patel",
+      name: "Ruksar Chudesra",
       location: "Ahmedabad",
       rating: 5,
-      text: "Excellent physiotherapy services. My daughter's motor skills have improved significantly with their help.",
+      text: "Appreciate the cleanliness of the clinic , all the doctors was very kind and professional... Like that Listen to patient peacefully and according to their problems suggest best exercise",
       therapy: "Paediatric Physiotherapy"
     },
     {
-      name: "Neha Joshi",
+      name: "Aqsa Vasi",
       location: "Ahmedabad",
       rating: 5,
-      text: "The autism support program has been incredible. Highly recommend this center to all parents.",
+      text: "Highly recommend “Arsh Paediatric Rehab “ to everyone who is looking out for the best for their child. Each and every Therapist is well equipped and empowered with full knowledge to their service. With long years of experience they can guide you with the best in your interest. The betterment of your child lies here!!",
       therapy: "Autism Therapy"
     }
   ];

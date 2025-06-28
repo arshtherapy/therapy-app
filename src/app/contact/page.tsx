@@ -477,12 +477,13 @@ const Contact = () => {
                     AS
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800">Aarav Sharma</h4>
-                    <p className="text-sm text-gray-500">Parent of 5-year-old</p>
+                    <h4 className="font-semibold text-gray-800">Farhad allam khan</h4>
+                    <p className="text-sm text-gray-500">Parent of 2-year-old</p>
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
-                  &quot;The speech therapy at Arsh Center transformed my son&#39;s communication skills. The therapists are patient and knowledgeable.&quot;
+                  Both Adil sir and nilofer madam are very talented and experienced doctor.
+Monitoring juniors and taking proper care of children having physio issues . I strongly recommend arsh rehabilitation center for paediatric physio issues.
                 </p>
                 <div className="flex mt-4">
                   {[...Array(5)].map((_, i) => (
@@ -499,12 +500,12 @@ const Contact = () => {
                     PK
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800">Priya Kapoor</h4>
+                    <h4 className="font-semibold text-gray-800">Makwana BHARAT</h4>
                     <p className="text-sm text-gray-500">Parent of 3-year-old</p>
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
-                  &quot;The occupational therapy sessions helped my daughter with sensory processing issues. We&#39;ve seen remarkable progress in just 3 months.&quot;
+                  This center is very cool. All the people working here have a very cool personality, they are very smart.
                 </p>
                 <div className="flex mt-4">
                   {[...Array(5)].map((_, i) => (
@@ -522,7 +523,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Rahul Mehta</h4>
-                    <p className="text-sm text-gray-500">Parent of 7-year-old</p>
+                    <p className="text-sm text-gray-500">Parent of 5-year-old</p>
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
