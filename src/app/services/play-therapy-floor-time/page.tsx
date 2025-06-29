@@ -135,7 +135,7 @@ const PlayTherapyPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/play-therapy/play-1.jpeg"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/floor-time/floor-2.jpeg"
                   alt="Child engaging in play therapy"
                   fill
                   className="object-cover"
@@ -213,7 +213,7 @@ const PlayTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/play-therapy/play-1.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/floor-time/floor-1.jpeg"
                       alt="Therapist engaging in play with child"
                       fill
                       className="object-cover"
@@ -221,7 +221,7 @@ const PlayTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/play-therapy/play-2.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/floor-time/floor-2.jpeg"
                       alt="Child doing play therapy activities"
                       fill
                       className="object-cover"
@@ -229,7 +229,7 @@ const PlayTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/play-therapy/play-2.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/floor-time/floor-3.jpeg"
                       alt="Parent and child playing together"
                       fill
                       className="object-cover"

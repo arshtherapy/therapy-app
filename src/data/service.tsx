@@ -4,7 +4,7 @@ export const servicesData = [
     title: "Physical Therapy",
     description: "Specialized physical therapy to improve mobility, strength, and motor skills in children.",
     icon: "🏃‍♂️",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/physical-therapy/physical-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved gross motor skills",
       "Enhanced balance and coordination",
@@ -24,7 +24,7 @@ export const servicesData = [
     title: "Behaviour Therapy (ABA)",
     description: "Evidence-based behavioral therapy for children with Autism Spectrum Disorder.",
     icon: "🧩",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aba-therapy/aba-1.jpeg?w=600&h=600&auto=format&fit=crop",
     benefits: [
       "Behavior management and replacement of social appropriate behavior",
       "Development of academic and life skills",
@@ -43,7 +43,7 @@ export const servicesData = [
     title: "Oral Placement Therapy (OPT)",
     description: "Specialized therapy for improving oral-motor coordination and speech clarity.",
     icon: "👅",
-    image: "https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/opt-therapy/opt-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Jaw,lip and tounge strengthening and coordination",
       "Better articulation and feeding",
@@ -63,7 +63,7 @@ export const servicesData = [
     title: "Early Intervention",
     description: "Therapies aimed at addressing developmental delays in new born and infants.",
     icon: "👶",
-    image: "https://images.unsplash.com/photo-1581609793485-7e4fd1e3f9a2?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/early-intervention/early-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Identify developmental risks early",
       "Minimize developmental delays",
@@ -102,7 +102,7 @@ export const servicesData = [
     title: "Occupational Therapy",
     description: "Helping children develop essential daily living and fine motor skills.",
     icon: "🧠",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/occupational-therapy/occupational-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Daily living task independence",
       "Fine motor and coordination skills",
@@ -121,7 +121,7 @@ export const servicesData = [
     title: "Sensory Integration",
     description: "Therapy focused on improving the brain's ability to process sensory information.",
     icon: "🌀",
-    image: "https://images.unsplash.com/photo-1547327132-5d20850c62f5?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/sensory-therapy/sensory-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Better sensory processing and regulation",
       "Increased calmness and behavior control",
@@ -140,7 +140,7 @@ export const servicesData = [
     title: "Oro-motor & Speech Therapy",
     description: "Comprehensive therapy for speech and feeding difficulties related to oral-motor function.",
     icon: "🗣️",
-    image: "https://images.unsplash.com/photo-1620052581237-5d36667be1c3?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/speech-therapy/speech-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved speech production",
       "Enhanced feeding skills",
@@ -159,7 +159,7 @@ export const servicesData = [
     title: "Aquatic Therapy",
     description: "Therapy in water to improve mobility, coordination, and strength through low-impact exercises.",
     icon: "🏊‍♂️",
-    image: "https://images.unsplash.com/photo-1573497169404-736fa6c9ebd7?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/aquatic-therapy/aquatic-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Increased muscle strength and tone",
       "Reduce stress on joint and increase Range of motion",
@@ -177,7 +177,7 @@ export const servicesData = [
     title: "Visual Rehabilitation",
     description: "Therapy focused on improving functional vision and visual motor integration.",
     icon: "👁️",
-    image: "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/visual-therapy/visual-2.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved tracking and eye coordination",
       "Better reading and spatial awareness",
@@ -215,7 +215,7 @@ export const servicesData = [
     title: "Chest Physiotherapy",
     description: "Specialized respiratory therapy to improve breathing and lung function in children.",
     icon: "🫁",
-    image: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/chest-therapy/chest-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved respiratory function",
       "Enhanced mucus clearance",
@@ -234,7 +234,7 @@ export const servicesData = [
     title: "Cognitive Behaviour Therapy (CBT)",
     description: "Therapeutic approach that helps children manage emotions and change negative thought patterns.",
     icon: "🧠",
-    image: "https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/cbt-therapy/cbt-2.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved emotional regulation",
       "Reduced anxiety and depression",
@@ -253,7 +253,7 @@ export const servicesData = [
     title: "Verbal Behaviour Training (VBT)",
     description: "Behavioral approach focusing on teaching language and communication through the principles of ABA.",
     icon: "💬",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/vbt-therapy/vbt-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Enhanced communication skills",
       "Functional language development",
@@ -272,7 +272,7 @@ export const servicesData = [
     title: "Brain Gym",
     description: "Movement-based program designed to enhance cognitive function and learning abilities.",
     icon: "🧠",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/brain-gym/brain-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved focus and concentration",
       "Enhanced memory and learning",
@@ -291,7 +291,7 @@ export const servicesData = [
     title: "Play Therapy and Floor Time",
     description: "Child-centered therapeutic approach that uses play to support emotional and developmental growth.",
     icon: "🧸",
-    image: "https://images.unsplash.com/photo-1608889825101-1af56720e739?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/floor-time/floor-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Enhanced emotional expression",
       "Improved social skills",
@@ -310,7 +310,7 @@ export const servicesData = [
     title: "Primitive Reflex Therapy",
     description: "Targeted intervention to integrate retained primitive reflexes that may affect development.",
     icon: "🔄",
-    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/primitive-reflex/primitive-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved motor coordination",
       "Enhanced academic performance",
@@ -367,7 +367,7 @@ export const servicesData = [
     title: "School Readiness and Group Program",
     description: "Structured programs to prepare children for academic and social aspects of school life.",
     icon: "🏫",
-    image: "https://images.unsplash.com/photo-1588072432906-62bc3834b3ba?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school/school-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Improved classroom skills",
       "Enhanced social interaction",

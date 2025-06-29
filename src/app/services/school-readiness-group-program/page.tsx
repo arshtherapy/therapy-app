@@ -135,7 +135,7 @@ const SchoolReadinessPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school-readiness/school-readiness-1.jpeg"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school/school-1.jpeg"
                   alt="Children participating in school readiness activities"
                   fill
                   className="object-cover"
@@ -213,7 +213,7 @@ const SchoolReadinessPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school-readiness/school-readiness-2.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school/school-2.jpeg"
                       alt="Children doing fine motor activities"
                       fill
                       className="object-cover"
@@ -221,7 +221,7 @@ const SchoolReadinessPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school-readiness/school-readiness-3.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school/school-3.jpeg"
                       alt="Group circle time activity"
                       fill
                       className="object-cover"
@@ -229,7 +229,7 @@ const SchoolReadinessPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school-readiness/school-readiness-4.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/school/school-1.jpeg"
                       alt="Children working on pre-writing skills"
                       fill
                       className="object-cover"
