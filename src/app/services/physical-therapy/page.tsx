@@ -185,7 +185,7 @@ const PhysicalTherapyPage = () => {
                 },
                 {
                   title: "Increase range of motion",
-                  description: "Through muscle lengthing and stretching techniques",
+                  description: "Through muscle lengthening and stretching techniques",
                   icon: <Heart className="w-8 h-8 text-emerald-600" />
                 },
                 {

@@ -139,7 +139,7 @@ const OrthosisEquipmentsPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1633082476809-9bc30b3f4ea0?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/Orthotics/Orthotics-1.jpeg"
                   alt="Child using orthotic equipment with therapist support"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const OrthosisEquipmentsPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/Orthotics/Orthotics-2.jpeg"
                       alt="Custom orthotic devices"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const OrthosisEquipmentsPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/Orthotics/Orthotics-1.jpeg"
                       alt="Mobility equipment fitting"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const OrthosisEquipmentsPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=600"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/Orthotics/Orthotics-3.jpeg"
                       alt="Child using assistive equipment"
                       fill
                       className="object-cover"

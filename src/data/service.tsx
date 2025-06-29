@@ -196,7 +196,7 @@ export const servicesData = [
     title: "Orthosis & Equipments",
     description: "Provision and support for orthotic devices to improve posture, mobility, and daily functioning.",
     icon: "🦾",
-    image: "https://images.unsplash.com/photo-1633082476809-9bc30b3f4ea0?auto=format&fit=crop&q=80&w=600",
+    image: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/Orthotics/Orthotics-1.jpeg?auto=format&fit=crop&q=80&w=600",
     benefits: [
       "Better joint alignment",
       "Mobility assistance",
