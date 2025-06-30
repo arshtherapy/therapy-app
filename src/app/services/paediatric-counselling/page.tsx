@@ -135,7 +135,7 @@ const PaediatricCounsellingPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counseling/counseling-1.jpeg"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counselling/counselling-1.jpeg"
                   alt="Child counselor working with young client"
                   fill
                   className="object-cover"
@@ -213,7 +213,7 @@ const PaediatricCounsellingPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counseling/counseling-1.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counselling/counselling-1.jpeg"
                       alt="Play therapy session"
                       fill
                       className="object-cover"
@@ -221,7 +221,7 @@ const PaediatricCounsellingPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counseling/counseling-2.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counselling/counselling-2.jpeg"
                       alt="Teen counseling session"
                       fill
                       className="object-cover"
@@ -229,7 +229,7 @@ const PaediatricCounsellingPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counseling/counseling-2.jpeg"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/counselling/counselling-3.jpeg"
                       alt="Family counseling session"
                       fill
                       className="object-cover"

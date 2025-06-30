@@ -194,6 +194,13 @@ interface GalleryImage {
       alt: "Therapist conducting aquatic therapy",
       category: "Clinic Photos",
       description: "Hydrotherapy techniques to enhance muscle strength and coordination"
+    },
+    {
+      id: 27,
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-11.jpeg",
+      alt: "Therapist conducting speech therapy",
+      category: "Clinic Photos",
+      description: "Guided exercises to improve speech production and comprehension"
     }
 
   ];

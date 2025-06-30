@@ -128,7 +128,7 @@ const HeroSection = () => {
 
   const images = [
     {
-      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-5.jpeg",
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-8.jpeg",
       alt: "Kids enjoying therapy session",
       className: "z-10 hover:z-20"
     },
@@ -144,6 +144,15 @@ const HeroSection = () => {
     },
     {
       src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-1.jpeg",
+      alt: "One-on-one therapy",
+      className: "z-0 hover:z-20"
+    },{
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-9.jpeg",
+      alt: "Group therapy session",
+      className: "z-10 hover:z-20"
+    },
+    {
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-7.jpeg",
       alt: "One-on-one therapy",
       className: "z-0 hover:z-20"
     }
@@ -527,65 +536,68 @@ const HeroSection = () => {
           </div>
 
           {/* Image Gallery with 3D Effect */}
-          <motion.div 
-            className="relative h-[500px] w-full"
-            variants={container}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            style={{
-              perspective: "1000px"
-            }}
-          >
-            {images.map((image, index) => (
-              <motion.div
-                key={image.alt}
-                custom={index}
-                variants={imageVariants}
-                whileHover="hover"
-                className={`absolute rounded-2xl overflow-hidden shadow-2xl ${image.className}`}
-                style={{
-                  width: index % 2 === 0 ? '65%' : '50%',
-                  left: index % 2 === 0 ? '0%' : '50%',
-                  top: index % 2 === 0 ? `${index * 25}%` : `${index * 25 - 15}%`,
-                  transform: index % 2 === 0 ? 'rotateY(-5deg) rotateX(-5deg) rotate(-6deg)' : 'rotateY(5deg) rotateX(5deg) rotate(6deg)',
-                  transformStyle: 'preserve-3d',
-                  border: '1px solid rgba(255, 255, 255, 0.5)',
-                  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
-                }}
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  loading="eager"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
-              </motion.div>
-            ))}
+          {/* Image Gallery with 3D Effect */}
+<motion.div 
+  className="relative h-[500px] w-full"
+  variants={container}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  style={{
+    perspective: "1000px"
+  }}
+>
+  {images.map((image, index) => (
+    <motion.div
+      key={image.alt}
+      custom={index}
+      variants={imageVariants}
+      whileHover="hover"
+      className={`absolute rounded-2xl overflow-hidden shadow-2xl ${image.className}`}
+      style={{
+        width: index % 2 === 0 ? '60%' : '55%',
+        left: index % 2 === 0 ? '5%' : '40%',
+        top: `${index * 15}%`,
+        transform: index % 2 === 0 ? 
+          'rotateY(-5deg) rotateX(-5deg) rotate(-3deg)' : 
+          'rotateY(5deg) rotateX(5deg) rotate(3deg)',
+        transformStyle: 'preserve-3d',
+        border: '1px solid rgba(255, 255, 255, 0.5)',
+        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+      }}
+    >
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={600}
+        height={400}
+        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+        loading="eager"
+        priority
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+    </motion.div>
+  ))}
 
-            {/* Floating Tech Orb */}
-            <motion.div 
-              className="absolute -bottom-8 -right-8 w-24 h-24 rounded-full border border-cyan-200 flex items-center justify-center z-20"
-              animate={{
-                scale: [1, 1.1, 1],
-                opacity: [0.8, 1, 0.8],
-                rotate: [0, 360]
-              }}
-              transition={{
-                duration: 10,
-                repeat: Infinity,
-                ease: "linear"
-              }}
-            >
-              <div className="w-16 h-16 rounded-full bg-gradient-to-r from-cyan-100 to-blue-100 backdrop-blur-sm flex items-center justify-center">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse"></div>
-              </div>
-            </motion.div>
-          </motion.div>
+  {/* Floating Tech Orb */}
+  <motion.div 
+    className="absolute -bottom-8 -right-8 w-24 h-24 rounded-full border border-cyan-200 flex items-center justify-center z-20"
+    animate={{
+      scale: [1, 1.1, 1],
+      opacity: [0.8, 1, 0.8],
+      rotate: [0, 360]
+    }}
+    transition={{
+      duration: 10,
+      repeat: Infinity,
+      ease: "linear"
+    }}
+  >
+    <div className="w-16 h-16 rounded-full bg-gradient-to-r from-cyan-100 to-blue-100 backdrop-blur-sm flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse"></div>
+    </div>
+  </motion.div>
+</motion.div>
         </motion.div>
       </div>
 
