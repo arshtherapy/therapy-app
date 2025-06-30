@@ -139,7 +139,7 @@ const OnlineTherapyPage = () => {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=600"
+                  src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/online-therapy/online-1.jpeg"
                   alt="Online therapy session with child and therapist"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ const OnlineTherapyPage = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1549056572-75914d5d5fd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/online-therapy/online-3.jpeg"
                       alt="Therapist conducting online session"
                       fill
                       className="object-cover"
@@ -225,7 +225,7 @@ const OnlineTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/online-therapy/online-1.jpeg"
                       alt="Child engaged in online therapy activities"
                       fill
                       className="object-cover"
@@ -233,7 +233,7 @@ const OnlineTherapyPage = () => {
                   </div>
                   <div className="relative h-64 rounded-lg overflow-hidden col-span-2">
                     <Image
-                      src="https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                      src="https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/online-therapy/online-2.jpeg"
                       alt="Family participating in online therapy session"
                       fill
                       className="object-cover"

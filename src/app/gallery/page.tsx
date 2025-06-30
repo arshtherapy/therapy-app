@@ -167,6 +167,34 @@ interface GalleryImage {
       category: "Clinic Photos",
       description: "Our bright and engaging therapy space designed for children's comfort"
     },
+    {
+      id: 23,
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-7.jpeg",
+      alt: "Therapist conducting physical therapy exercises",
+      category: "Clinic Photos",
+      description: "Guided exercises to improve strength, coordination, and motor skills"
+    },
+    {
+      id: 24,
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-8.jpeg",
+      alt: "Therapist conducting aquatic therapy",
+      category: "Clinic Photos",
+      description: "Hydrotherapy techniques to enhance muscle strength and coordination"
+    },
+    {
+      id: 25,
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-9.jpeg",
+      alt: "Therapist conducting speech therapy",
+      category: "Clinic Photos",
+      description: "Guided exercises to improve speech production and comprehension"
+    },
+    {
+      id: 26,
+      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-10.jpeg",
+      alt: "Therapist conducting aquatic therapy",
+      category: "Clinic Photos",
+      description: "Hydrotherapy techniques to enhance muscle strength and coordination"
+    }
 
   ];
 
@@ -186,7 +214,7 @@ const Gallery = () => {
 
   useEffect(() => {
     const filtered = activeCategory === "All" 
-      ? GALLERY_IMAGES 
+      ? GALLERY_IMAGES
       : GALLERY_IMAGES.filter(img => img.category === activeCategory);
     setShuffledImages(shuffleArray(filtered));
   }, [activeCategory]);
