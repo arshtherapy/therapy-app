@@ -137,19 +137,15 @@ const HeroSection = () => {
       alt: "Child with therapist",
       className: "z-0 hover:z-20"
     },
-    {
-      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-4.jpeg",
-      alt: "Group therapy session",
-      className: "z-10 hover:z-20"
-    },
+    // {
+    //   src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-4.jpeg",
+    //   alt: "Group therapy session",
+    //   className: "z-10 hover:z-20"
+    // },
     {
       src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-1.jpeg",
       alt: "One-on-one therapy",
       className: "z-0 hover:z-20"
-    },{
-      src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-9.jpeg",
-      alt: "Group therapy session",
-      className: "z-10 hover:z-20"
     },
     {
       src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-7.jpeg",
