@@ -137,11 +137,6 @@ const HeroSection = () => {
       alt: "Child with therapist",
       className: "z-0 hover:z-20"
     },
-    // {
-    //   src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-4.jpeg",
-    //   alt: "Group therapy session",
-    //   className: "z-10 hover:z-20"
-    // },
     {
       src: "https://pub-d8d80d0e4a9c4361bf0d27aba14da6c8.r2.dev/arsh-gallery/clinic-photos/clinic-1.jpeg",
       alt: "One-on-one therapy",
@@ -531,69 +526,148 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Image Gallery with 3D Effect */}
-          {/* Image Gallery with 3D Effect */}
-<motion.div 
-  className="relative h-[500px] w-full"
-  variants={container}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
-  style={{
-    perspective: "1000px"
-  }}
->
-  {images.map((image, index) => (
-    <motion.div
-      key={image.alt}
-      custom={index}
-      variants={imageVariants}
-      whileHover="hover"
-      className={`absolute rounded-2xl overflow-hidden shadow-2xl ${image.className}`}
-      style={{
-        width: index % 2 === 0 ? '60%' : '55%',
-        left: index % 2 === 0 ? '5%' : '40%',
-        top: `${index * 15}%`,
-        transform: index % 2 === 0 ? 
-          'rotateY(-5deg) rotateX(-5deg) rotate(-3deg)' : 
-          'rotateY(5deg) rotateX(5deg) rotate(3deg)',
-        transformStyle: 'preserve-3d',
-        border: '1px solid rgba(255, 255, 255, 0.5)',
-        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
-      }}
-    >
-      <Image
-        src={image.src}
-        alt={image.alt}
-        width={600}
-        height={400}
-        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-        loading="eager"
-        priority
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
-    </motion.div>
-  ))}
+          {/* Image Gallery with 3D Effect - Updated for 4 images */}
+          <motion.div 
+            className="relative h-[500px] w-full"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            style={{
+              perspective: "1000px"
+            }}
+          >
+            {/* First image - larger and centered */}
+            <motion.div
+              custom={0}
+              variants={imageVariants}
+              whileHover="hover"
+              className="absolute rounded-2xl overflow-hidden shadow-2xl z-10 hover:z-20"
+              style={{
+                width: '65%',
+                left: '17.5%',
+                top: '10%',
+                transform: 'rotateY(-5deg) rotateX(-5deg) rotate(-3deg)',
+                transformStyle: 'preserve-3d',
+                border: '1px solid rgba(255, 255, 255, 0.5)',
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              <Image
+                src={images[0].src}
+                alt={images[0].alt}
+                width={600}
+                height={400}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                loading="eager"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+            </motion.div>
 
-  {/* Floating Tech Orb */}
-  <motion.div 
-    className="absolute -bottom-8 -right-8 w-24 h-24 rounded-full border border-cyan-200 flex items-center justify-center z-20"
-    animate={{
-      scale: [1, 1.1, 1],
-      opacity: [0.8, 1, 0.8],
-      rotate: [0, 360]
-    }}
-    transition={{
-      duration: 10,
-      repeat: Infinity,
-      ease: "linear"
-    }}
-  >
-    <div className="w-16 h-16 rounded-full bg-gradient-to-r from-cyan-100 to-blue-100 backdrop-blur-sm flex items-center justify-center">
-      <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse"></div>
-    </div>
-  </motion.div>
-</motion.div>
+            {/* Second image - smaller and to the right */}
+            <motion.div
+              custom={1}
+              variants={imageVariants}
+              whileHover="hover"
+              className="absolute rounded-2xl overflow-hidden shadow-2xl z-0 hover:z-20"
+              style={{
+                width: '50%',
+                left: '50%',
+                top: '30%',
+                transform: 'rotateY(5deg) rotateX(5deg) rotate(3deg)',
+                transformStyle: 'preserve-3d',
+                border: '1px solid rgba(255, 255, 255, 0.5)',
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              <Image
+                src={images[1].src}
+                alt={images[1].alt}
+                width={600}
+                height={400}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                loading="eager"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+            </motion.div>
+
+            {/* Third image - smaller and to the left */}
+            <motion.div
+              custom={2}
+              variants={imageVariants}
+              whileHover="hover"
+              className="absolute rounded-2xl overflow-hidden shadow-2xl z-0 hover:z-20"
+              style={{
+                width: '50%',
+                left: '0%',
+                top: '40%',
+                transform: 'rotateY(-8deg) rotateX(-8deg) rotate(-5deg)',
+                transformStyle: 'preserve-3d',
+                border: '1px solid rgba(255, 255, 255, 0.5)',
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              <Image
+                src={images[2].src}
+                alt={images[2].alt}
+                width={600}
+                height={400}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                loading="eager"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+            </motion.div>
+
+            {/* Fourth image - medium and bottom center */}
+            <motion.div
+              custom={3}
+              variants={imageVariants}
+              whileHover="hover"
+              className="absolute rounded-2xl overflow-hidden shadow-2xl z-0 hover:z-20"
+              style={{
+                width: '55%',
+                left: '22.5%',
+                top: '55%',
+                transform: 'rotateY(3deg) rotateX(3deg) rotate(2deg)',
+                transformStyle: 'preserve-3d',
+                border: '1px solid rgba(255, 255, 255, 0.5)',
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              <Image
+                src={images[3].src}
+                alt={images[3].alt}
+                width={600}
+                height={400}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                loading="eager"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+            </motion.div>
+
+            {/* Floating Tech Orb */}
+            <motion.div 
+              className="absolute -bottom-8 -right-8 w-24 h-24 rounded-full border border-cyan-200 flex items-center justify-center z-20"
+              animate={{
+                scale: [1, 1.1, 1],
+                opacity: [0.8, 1, 0.8],
+                rotate: [0, 360]
+              }}
+              transition={{
+                duration: 10,
+                repeat: Infinity,
+                ease: "linear"
+              }}
+            >
+              <div className="w-16 h-16 rounded-full bg-gradient-to-r from-cyan-100 to-blue-100 backdrop-blur-sm flex items-center justify-center">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse"></div>
+              </div>
+            </motion.div>
+          </motion.div>
         </motion.div>
       </div>
 
