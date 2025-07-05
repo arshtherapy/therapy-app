@@ -161,56 +161,64 @@ const Services = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {servicesData.map((service) => (
-                <Card 
-                  key={service.id} 
-                  className="group border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden hover:border-primary-300 relative"
-                >
-                  <div className="absolute top-4 right-4 z-10">
-                    <span className="bg-primary-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
-                      {service.icon}
-                    </span>
-                  </div>
-                  <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src={service.image}
-                      alt={service.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      priority={service.id === "speech-therapy"}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                    <p className="text-gray-600 mb-4">{service.description}</p>
-                    
-                    <div className="mb-4">
-                      <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-1 text-primary-500" />
-                        Key Benefits
-                      </h4>
-                      <ul className="space-y-2">
-                        {service.benefits.slice(0, 3).map((benefit, idx) => (
-                          <li key={idx} className="flex items-start">
-                            <CheckCircle className="w-5 h-5 text-primary-500 mt-0.5 mr-2 flex-shrink-0" />
-                            <span className="text-gray-700">{benefit}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    
-                    <Link href={`/services/${service.id}`} passHref>
-                      <Button variant="outline" className="w-full mt-4 group-hover:bg-primary-50 group-hover:border-primary-300 group-hover:text-primary-600 transition-colors">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-                      </Button>
-                    </Link>
-                  </div>
-                </Card>
+  {servicesData.map((service) => (
+    <Link 
+      key={service.id}
+      href={`/services/${service.id}`}
+      passHref
+      className="group block hover:no-underline"
+    >
+      <Card className="border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden hover:border-primary-300 relative h-full">
+        <div className="absolute top-4 right-4 z-10">
+          <span className="bg-primary-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+            {service.icon}
+          </span>
+        </div>
+        <div className="relative h-48 overflow-hidden">
+          <Image
+            src={service.image}
+            alt={service.title}
+            fill
+            className="object-cover transition-transform duration-500 group-hover:scale-110"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority={service.id === "speech-therapy"}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+            {service.title}
+          </h3>
+          <p className="text-gray-600 mb-4">{service.description}</p>
+          
+          <div className="mb-4">
+            <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 flex items-center">
+              <ChevronRight className="w-4 h-4 mr-1 text-primary-500" />
+              Key Benefits
+            </h4>
+            <ul className="space-y-2">
+              {service.benefits.slice(0, 3).map((benefit, idx) => (
+                <li key={idx} className="flex items-start">
+                  <CheckCircle className="w-5 h-5 text-primary-500 mt-0.5 mr-2 flex-shrink-0" />
+                  <span className="text-gray-700">{benefit}</span>
+                </li>
               ))}
-            </div>
+            </ul>
+          </div>
+          
+          <Button 
+            variant="outline" 
+            className="w-full mt-4 group-hover:bg-primary-50 group-hover:border-primary-300 group-hover:text-primary-600 transition-colors"
+            role="link"
+          >
+            Learn More
+            <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+          </Button>
+        </div>
+      </Card>
+    </Link>
+  ))}
+</div>
           </div>
         </section>
 
