@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import Image from "next/image";
+import logo from "../app/arsh-logo.png"
 const servicesData = [
   { id: "physical-therapy", title: "Physical Therapy" },
   { id: "aba-therapy", title: "Behaviour Therapy (ABA)" },
@@ -24,7 +25,6 @@ const servicesData = [
   { id: "brain-gym", title: "Brain Gym" },
   { id: "play-therapy-floor-time", title: "Play Therapy and Floor Time" },
   { id: "primitive-reflex-therapy", title: "Primitive Reflex Therapy" },
-  // { id: "special-education", title: "Special Education" },
   { id: "paediatric-counselling", title: "Paediatric Counselling" },
   { id: "school-readiness-group-program", title: "School Readiness and Group Program" }
 ];
@@ -84,14 +84,29 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 shadow-md hover:shadow-lg transition-all duration-300 dark:bg-primary dark:hover:bg-primary/80 group">
-              <span className="text-white font-bold text-lg">Arsh</span>
-            </div>
-            <h1 className="hidden sm:block text-xl font-semibold text-gray-800 tracking-wide font-poppins group-hover:text-primary transition-colors duration-300">
-              Child Therapy
-            </h1>
-          </Link>
+          
+<Link href="/" className="flex items-center space-x-3 group">
+  {/* Mobile Logo - Shows only on mobile */}
+  <div className="md:hidden bg-white hover:bg-white/90 rounded-full p-3 transition-all duration-300">
+    <Image
+      src={logo}
+      alt="Arsh Child Therapy Logo"
+      width={40}  // Increased from 32
+      height={40} // Increased from 32
+      className="h-10 w-auto" // Increased from h-8
+    />
+  </div>
+  
+  {/* Desktop Logo - Shows only on desktop */}
+  <div className="hidden md:flex items-center">
+    <div className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 shadow-md hover:shadow-lg transition-all duration-300 dark:bg-primary dark:hover:bg-primary/80 group">
+      <span className="text-white font-bold text-lg">Arsh</span>
+    </div>
+    <h1 className="hidden sm:block text-xl font-semibold text-gray-800 tracking-wide font-poppins group-hover:text-primary transition-colors duration-300 ml-3">
+      Child Therapy
+    </h1>
+  </div>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
