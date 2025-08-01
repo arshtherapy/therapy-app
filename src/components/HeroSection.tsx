@@ -393,7 +393,7 @@ const HeroSection = () => {
                     }
                   }}
                 >
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-600">Little Star</span>{" "}
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-600">Ankit Star</span>{" "}
                   <motion.div
                     className="inline-flex items-center justify-center ml-2"
                     animate={{
