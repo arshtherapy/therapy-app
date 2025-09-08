@@ -304,15 +304,15 @@ const PhysicalTherapyPage = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                // "Cerebral Palsy",
-                // "Developmental Delays", 
-                // "Muscular Dystrophy",
-                // "Post-surgical Rehabilitation",
-                // "Spina Bifida",
-                // "Genetic Disorders",
-                // "Orthopedic Conditions",
-                // "Sports Injuries",
-                // "Neurological Conditions"
+                "Cerebral Palsy",
+                "Developmental Delays", 
+                "Muscular Dystrophy",
+                "Post-surgical Rehabilitation",
+                "Spina Bifida",
+                "Genetic Disorders",
+                "Orthopedic Conditions",
+                "Sports Injuries",
+                "Neurological Conditions",
                 "Spinal muscular atrophy",
                 "DMD and other dystrophy", 
                 "Myopathies",
