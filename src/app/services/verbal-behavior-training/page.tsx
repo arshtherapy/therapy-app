@@ -309,7 +309,7 @@ const VerbalBehaviorTrainingPage = () => {
                 "Nonverbal or Minimally Verbal",
                 "Expressive Language Disorder",
                 "Genetic Disorders",
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Hearing Impairments",
                 "Cognitive Disabilities",
                 "Social Communication Disorder"

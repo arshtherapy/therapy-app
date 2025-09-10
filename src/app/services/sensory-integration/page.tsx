@@ -372,7 +372,7 @@ const SensoryIntegrationPage = () => {
                 "Developmental Delays",
                 "Learning Disabilities",
                 "Anxiety Disorders",
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Down Syndrome"
               ].map((condition, index) => (
                 <div key={index} className="bg-purple-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-purple-100 text-center">

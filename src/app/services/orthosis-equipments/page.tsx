@@ -305,7 +305,7 @@ const OrthosisEquipmentsPage = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Muscle Tone Issues",
                 "Orthopedic Impairments",
                 "Post-Surgical Needs",

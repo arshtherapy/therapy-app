@@ -309,7 +309,7 @@ const EarlyInterventionPage = () => {
                 "Autism Spectrum Disorders",
                 "Genetic Disorders",
                 "Premature Birth Complications",
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Down Syndrome",
                 "Hearing Impairments",
                 "Vision Impairments"

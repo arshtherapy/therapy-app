@@ -13,7 +13,7 @@ export const servicesData = [
       "Prevention and correction of deformity and contracture"
     ],
     conditions: [
-      "Cerebral Palsy",
+      "All type of cerebral palsy",
       "Developmental Delays",
       "Muscular Dystrophy",
       "Post-surgical Rehabilitation"
@@ -166,7 +166,7 @@ export const servicesData = [
       "Enhance proprioceptive input through out the body"
     ],
     conditions: [
-      "Cerebral Palsy",
+      "All type of cerebral palsy",
       "Muscle Weakness",
       "Sensory Processing Disorders",
       "Arthrogryposis"
@@ -204,7 +204,7 @@ export const servicesData = [
       "Improved functional abilities"
     ],
     conditions: [
-      "Cerebral Palsy",
+      "All type of cerebral palsy",
       "Muscle Tone Issues",
       "Orthopedic Impairments",
       "Post-Surgical Needs"

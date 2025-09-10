@@ -364,7 +364,7 @@ const OromotorSpeechPage = () => {
                 "Dysphagia (Swallowing Disorders)",
                 "Childhood Apraxia of Speech",
                 "Oral Sensory Issues",
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Down Syndrome",
                 "Cleft Lip/Palate",
                 "Tongue Tie (Ankyloglossia)"

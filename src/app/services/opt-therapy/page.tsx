@@ -312,7 +312,7 @@ const OralPlacementTherapyPage = () => {
                 "Apraxia of Speech",
                 "Swallowing Disorders",
                 "Down Syndrome",
-                "Cerebral Palsy"
+                "All type of cerebral palsy"
               ].map((condition, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-100 text-center">
                   <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">

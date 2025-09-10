@@ -305,7 +305,7 @@ const AquaticTherapyPage = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                "Cerebral Palsy",
+                "All type of cerebral palsy",
                 "Muscle Weakness", 
                 "Sensory Processing Disorders",
                 "Arthrogryposis",
