@@ -61,23 +61,30 @@ export default function Home() {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Arsh Paediatric Rehabilitation Center – Therapy & Care in Ahmedabad</title>
+        <title>Pediatric Therapy in Ahmedabad | Arsh Child Rehabilitation Center | Autism, Speech & Occupational Therapy</title>
         <meta
           name="description"
-          content="Arsh Paediatric Rehabilitation Center offers personalized therapy for children in Ahmedabad. Speech, Occupational, ABA Therapy & more – book a free consultation!"
+          content="Leading pediatric therapy center in Ahmedabad. Expert Speech Therapy, Occupational Therapy, Autism & ABA care. 13+ years of experience helping children thrive."
         />
-        <meta name="keywords" content="paediatric therapy Ahmedabad, Speech therapy, Child rehabilitation, ABA Therapy, Occupational Therapy" />
+        <meta name="keywords" content="pediatric therapy, child rehabilitation, speech therapy, occupational therapy, autism therapy, ABA therapy, child development, sensory integration, physiotherapy, ADHD therapy, special needs children, early intervention, child therapist, Ahmedabad, Gujarat, child autism center, developmental delays, learning disabilities, child counseling, behavioral therapy" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.arshchildtherapy.com/" />
-        <meta property="og:title" content="Arsh Paediatric Rehabilitation Center – Therapy & Care in Ahmedabad" />
+
+        {/* Open Graph (Facebook/WhatsApp) */}
+        <meta property="og:title" content="Pediatric Therapy in Ahmedabad | Arsh Child Rehabilitation Center" />
         <meta
           property="og:description"
-          content="Personalized paediatric therapy and rehabilitation services in Ahmedabad. Helping every child grow and thrive."
+          content="Speech, Occupational, Autism & ABA Therapy in Ahmedabad. Trusted by parents for 13+ years."
         />
         <meta property="og:url" content="https://www.arshchildtherapy.com/" />
         <meta property="og:type" content="website" />
-        <meta property='og:logo' content='https://www.arshchildtherapy.com/favicon.ico' />
         <meta property="og:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Pediatric Therapy in Ahmedabad | Arsh Child Rehabilitation Center" />
+        <meta name="twitter:description" content="Trusted child therapy center in Ahmedabad for Speech, Occupational, Autism & ABA Therapy." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
 
         {/* ✅ JSON-LD Schema.org markup */}
         <script
@@ -90,14 +97,24 @@ export default function Home() {
               "url": "https://www.arshchildtherapy.com/",
               "logo": "https://www.arshchildtherapy.com/favicon.ico",
               "image": "https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg",
-              "description": "Specialized paediatric therapy, rehabilitation, and autism care center based in Ahmedabad, India.",
+              "description": "Specialized pediatric therapy and rehabilitation clinic in Ahmedabad, India. Offering Speech Therapy, Occupational Therapy, Autism Care & ABA Therapy.",
+              "medicalSpecialty": [
+                "SpeechTherapy",
+                "OccupationalTherapy",
+                "Physiotherapy",
+                "AutismTherapy"
+              ],
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Your Clinic Address Here",
-                "addressLocality": "Ahmedabad",
+                "streetAddress": "A block Himalaya falaknuma, 101 A, behind ROYAL AKBAR TOWER, Quresh Nagar Society",
+                "addressLocality": "Juhapura, Ahmedabad",
                 "addressRegion": "Gujarat",
-                "postalCode": "380015",
+                "postalCode": "380055",
                 "addressCountry": "IN"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "Ahmedabad"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
@@ -157,7 +174,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Simple <span className="text-primary-500">Process</span></h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">How we work with you to support your child&#39;s development</p>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">How we work with you to support your child&#39;s development journey with our specialized pediatric therapy services</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -191,7 +208,7 @@ export default function Home() {
               Ready to Begin Your Child&apos;s <span className="text-yellow-200">Growth Journey</span>?
             </h2>
             <p className="text-primary-100 mb-8 text-xl">
-              Book a free consultation at Arsh Paediatric Rehabilitation Center and see how our expert team can support your child&apos;s unique needs.
+              Book a free consultation at Arsh Paediatric Rehabilitation Center and see how our expert team can support your child&apos;s unique needs with our specialized autism therapy, speech therapy, and occupational therapy services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" passHref>
@@ -201,7 +218,7 @@ export default function Home() {
                 </button>
               </Link>
               <a
-                href="tel:+919876543210"
+                href="tel:+919998162680"
                 aria-label="Call Arsh Paediatric Rehabilitation Center"
                 rel="noopener noreferrer"
               >
