@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ["child counseling Ahmedabad", "pediatric psychologist", "child therapist", "children's mental health"],
 };
 
-const PaediatricCounsellingPage = () => {
+const ChildCounsellingPage = () => {
   // Structured data for Pediatric Counseling service
   const counselingSchema = {
     "@context": "https://schema.org",
@@ -400,4 +400,4 @@ const PaediatricCounsellingPage = () => {
   );
 };
 
-export default PaediatricCounsellingPage;
+export default ChildCounsellingPage;

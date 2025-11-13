@@ -344,8 +344,8 @@ export const servicesData = [
     ]
   },
   {
-    id: "paediatric-counselling",
-    title: "Paediatric Counselling",
+    id: "child-counselling",
+    title: "Child Counselling",
     description: "Psychological support for children and families dealing with emotional and behavioral challenges.",
     icon: "💙",
     image: "https://images.unsplash.com/photo-1599658880436-c61792e70672?auto=format&fit=crop&q=80&w=600",
