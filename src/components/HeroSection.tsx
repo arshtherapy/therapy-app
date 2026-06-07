@@ -496,7 +496,7 @@ const HeroSection = () => {
                 }}
               >
                 <Award className="text-amber-500 w-6 h-6" />
-                <span className="text-gray-800">13+ Years of Excellence</span>
+                <span className="text-gray-800">15+ Years of Excellence</span>
               </motion.div>
             </div>
 

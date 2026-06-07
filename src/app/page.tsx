@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 // Static data
 const stats = [
   { value: "1000+", label: "Children Helped", icon: <UserCheck className="w-8 h-8 mx-auto mb-3" /> },
-  { value: "13+", label: "Years Experience", icon: <Stars className="w-8 h-8 mx-auto mb-3" /> },
+  { value: "15+", label: "Years Experience", icon: <Stars className="w-8 h-8 mx-auto mb-3" /> },
   { value: "14+", label: "Specialized Therapists", icon: <Users className="w-8 h-8 mx-auto mb-3" /> },
   { value: "98%", label: "Parent Satisfaction", icon: <HeartPulse className="w-8 h-8 mx-auto mb-3" /> }
 ];
@@ -64,7 +64,7 @@ export default function Home() {
         <title>Pediatric Therapy in Ahmedabad | Arsh Child Rehabilitation Center | Autism, Speech & Occupational Therapy</title>
         <meta
           name="description"
-          content="Leading pediatric therapy center in Ahmedabad. Expert Speech Therapy, Occupational Therapy, Autism & ABA care. 13+ years of experience helping children thrive."
+          content="Leading pediatric therapy center in Ahmedabad. Expert Speech Therapy, Occupational Therapy, Autism & ABA care. 15+ years of experience helping children thrive."
         />
         <meta name="keywords" content="pediatric therapy, child rehabilitation, speech therapy, occupational therapy, autism therapy, ABA therapy, child development, sensory integration, physiotherapy, ADHD therapy, special needs children, early intervention, child therapist, Ahmedabad, Gujarat, child autism center, developmental delays, learning disabilities, child counseling, behavioral therapy" />
         <meta name="robots" content="index, follow" />
@@ -74,7 +74,7 @@ export default function Home() {
         <meta property="og:title" content="Pediatric Therapy in Ahmedabad | Arsh Child Rehabilitation Center" />
         <meta
           property="og:description"
-          content="Speech, Occupational, Autism & ABA Therapy in Ahmedabad. Trusted by parents for 13+ years."
+          content="Speech, Occupational, Autism & ABA Therapy in Ahmedabad. Trusted by parents for 15+ years."
         />
         <meta property="og:url" content="https://www.arshchildtherapy.com/" />
         <meta property="og:type" content="website" />

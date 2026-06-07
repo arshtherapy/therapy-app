@@ -6,28 +6,30 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 const About = () => {
-  const teamMembers = [
-    { name: "Dr. Nehal Suthar", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Zalak Suthar", role: "Paediatric Physiotherapist" },
-    { name: "Dr kritika Tiwari", role: "Paediatric Physiotherapist" },
-    { name: "Ms Ruhee Hawa", role: "Rehabilitation Psychologist and Behaviour Therapist" },
-    { name: "Dr. Manjur Mansuri", role: "Paediatric Rehabilitation Therapist" },
-    { name: "Dr. Sabiha Saiyed", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Naziya Khan", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Jasim Shaikh", role: "Paediatric Physiotherapist" },
-    { name: "Dr. Alfej Kankroliya", role: "Paediatric Physiotherapist" },
-    { name: "Ms. Rukhsarbanu Pathan", role: "Rehabilitation Psychologist and Speech Therapist" },
-    { name: "Mrs. Nafisa", role: "Rehabilitation Psychologist, ABA & CBT Therapist" },
-    { name: "Mr. Bharat Makwana", role: "Rehabilitation psychologist and oromotor specialist" },
-    {name: "Mr. Saniya Kachrajiwala", role:"Rehab psychologist"},
-    { name: "Ms. Sumaiya", role: "Management and Coordinator" },
-    { name: "Mrs. Bhagvati", role: "Management and Coordinator" }
-  ];
+const teamMembers = [
+  { name: "Dr. Nehal Suthar", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Zalak Suthar", role: "Paediatric Physiotherapist" },
+  { name: "Dr kritika Tiwari", role: "Paediatric Physiotherapist" },
+  { name: "Ms Ruhee Hawa", role: "Rehabilitation Psychologist and Behaviour Therapist" },
+  { name: "Dr. Manjur Mansuri", role: "Paediatric Rehabilitation Therapist" },
+  { name: "Dr. Sabiha Saiyed", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Alfej Kankroliya", role: "Paediatric Physiotherapist" },
+  { name: "Ms. Rukhsarbanu Pathan", role: "Rehabilitation Psychologist and Speech Therapist" },
+  { name: "Mrs. Nafisa", role: "Rehabilitation Psychologist, ABA & CBT Therapist" },
+  { name: "Mr. Saniya Kachrajiwala", role: "Rehab Psychologist" },
+  { name: "Mrs. Bhagvati", role: "Management and Coordinator" },
+  { name: "Dr. Asifa Rana", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Muskan Shaikh", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Kavya Katara", role: "Paediatric Physiotherapist" },
+  { name: "Dr. Nasira Shaikh", role: "Paediatric Physiotherapist" },
+  { name: "Ms. Ayesha Pathan", role: "Rehabilitation Psychologist & Behaviour Therapist" },
+  { name: "Ms. Zara Shaikh", role: "Clinic Coordinator & Assistant" }
+];
 
   const stats = [
     { number: "1000+", label: "Happy Families", icon: Heart },
     { number: "14+", label: "Expert Therapists", icon: Users },
-    { number: "13+", label: "Years Experience", icon: Award },
+    { number: "15+", label: "Years Experience", icon: Award },
     { number: "98%", label: "Success Rate", icon: Star }
   ];
 
@@ -160,13 +162,13 @@ const About = () => {
     <>
       <Head>
         <title>About Arsh Child Rehabilitation Center | Pediatric Therapy in Ahmedabad</title>
-        <meta name="description" content="Meet our expert team at Arsh Child Rehabilitation Center in Ahmedabad. 13+ years experience in pediatric therapy, speech therapy, ABA therapy & more. Free consultation available." />
+        <meta name="description" content="Meet our expert team at Arsh Child Rehabilitation Center in Ahmedabad. 15+ years experience in pediatric therapy, speech therapy, ABA therapy & more. Free consultation available." />
         <meta name="keywords" content="pediatric therapy, child rehabilitation, Ahmedabad, physical therapy, speech therapy, occupational therapy, ABA therapy, sensory integration, early intervention, Juhapura, Navrangpura, autism therapy, child development, special needs children, physiotherapy, behaviour therapy, aquatic therapy, Dr. Nilofar Vora Shaikh, Dr. Aadil Shaikh" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About Arsh Child Rehabilitation Center | Pediatric Therapy in Ahmedabad" />
-        <meta property="og:description" content="Meet our team of certified pediatric therapists and learn about our comprehensive therapy services for children in Ahmedabad. 13+ years experience." />
+        <meta property="og:description" content="Meet our team of certified pediatric therapists and learn about our comprehensive therapy services for children in Ahmedabad. 15+ years experience." />
         <meta property="og:url" content="https://www.arshchildtherapy.com/about" />
         <meta property="og:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
         <meta property="og:site_name" content="Arsh Child Rehabilitation Center" />
@@ -175,7 +177,7 @@ const About = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Arsh Child Rehabilitation Center | Pediatric Therapy in Ahmedabad" />
-        <meta name="twitter:description" content="Comprehensive pediatric therapy services in Ahmedabad with expert therapists and proven results. 13+ years experience." />
+        <meta name="twitter:description" content="Comprehensive pediatric therapy services in Ahmedabad with expert therapists and proven results. 15+ years experience." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dicvxuysv/image/upload/v1749281479/WhatsApp_Image_2025-06-03_at_11.03.20_hqtuts.jpg" />
         <meta name="twitter:site" content="@arshchildtherapy" />
         
@@ -442,7 +444,7 @@ const About = () => {
                       <div className="text-center">
                         <h4 className="font-semibold text-gray-900 mb-2">Dr. Aadil Shaikh</h4>
                         <p className="text-gray-600 leading-relaxed mb-3">
-                          With <strong>13+ years of experience</strong>, Dr. Aadil specializes in helping children achieve developmental milestones. His expertise in neurodevelopmental techniques and aquatic therapy has empowered countless children to walk, stand, and sit independently.
+                          With <strong>15+ years of experience</strong>, Dr. Aadil specializes in helping children achieve developmental milestones. His expertise in neurodevelopmental techniques and aquatic therapy has empowered countless children to walk, stand, and sit independently.
                         </p>
                         <p className="text-gray-600 leading-relaxed">
                           A lifelong learner, he continuously enhances his skills through advanced training, ensuring Arsh remains at the forefront of paediatric rehabilitation in Ahmedabad.

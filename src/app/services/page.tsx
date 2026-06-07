@@ -8,7 +8,7 @@ import { servicesData } from '@/data/service';
 
 export const metadata: Metadata = {
   title: "Pediatric Therapy Services in Ahmedabad | Speech, Occupational & Autism Therapy",
-  description: "Expert pediatric therapy services in Ahmedabad: Speech Therapy, Occupational Therapy, Autism/ABA Therapy, Physiotherapy & more. 13+ years experience. Book a free consultation.",
+  description: "Expert pediatric therapy services in Ahmedabad: Speech Therapy, Occupational Therapy, Autism/ABA Therapy, Physiotherapy & more. 15+ years experience. Book a free consultation.",
   keywords: [
     "pediatric therapy", "child therapy", "speech therapy", "occupational therapy", 
     "autism therapy", "ABA therapy", "physiotherapy", "child development", 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Pediatric Therapy Services in Ahmedabad | Speech, Occupational & Autism Therapy",
-    description: "Expert pediatric therapy services in Ahmedabad. Speech Therapy, Occupational Therapy, Autism/ABA Therapy, Physiotherapy & more. 13+ years experience.",
+    description: "Expert pediatric therapy services in Ahmedabad. Speech Therapy, Occupational Therapy, Autism/ABA Therapy, Physiotherapy & more. 15+ years experience.",
     url: "https://www.arshchildtherapy.com/services",
     siteName: "Arsh Child Rehabilitation Center",
     images: [
