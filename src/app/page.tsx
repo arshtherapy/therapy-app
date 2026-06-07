@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic';
 const stats = [
   { value: "1000+", label: "Children Helped", icon: <UserCheck className="w-8 h-8 mx-auto mb-3" /> },
   { value: "15+", label: "Years Experience", icon: <Stars className="w-8 h-8 mx-auto mb-3" /> },
-  { value: "14+", label: "Specialized Therapists", icon: <Users className="w-8 h-8 mx-auto mb-3" /> },
+  { value: "16+", label: "Specialized Therapists", icon: <Users className="w-8 h-8 mx-auto mb-3" /> },
   { value: "98%", label: "Parent Satisfaction", icon: <HeartPulse className="w-8 h-8 mx-auto mb-3" /> }
 ];
 

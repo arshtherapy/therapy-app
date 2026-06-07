@@ -28,7 +28,7 @@ const teamMembers = [
 
   const stats = [
     { number: "1000+", label: "Happy Families", icon: Heart },
-    { number: "14+", label: "Expert Therapists", icon: Users },
+    { number: "16+", label: "Expert Therapists", icon: Users },
     { number: "15+", label: "Years Experience", icon: Award },
     { number: "98%", label: "Success Rate", icon: Star }
   ];
@@ -236,7 +236,7 @@ const teamMembers = [
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Dedicated to empowering children through comprehensive therapy services in Juhapura and Navrangpura, Ahmedabad. 
-              With over 13 years of experience, our team of 14+ expert therapists has helped 1000+ families.
+              With over 13 years of experience, our team of 16+ expert therapists has helped 1000+ families.
             </p>
           </div>
 
@@ -497,7 +497,7 @@ const teamMembers = [
                 Meet Our Expert Team in Ahmedabad
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Our dedicated team of 14+ certified therapists brings years of experience and passion for helping children succeed. 
+                Our dedicated team of 16+ certified therapists brings years of experience and passion for helping children succeed. 
                 Each specialist is committed to providing the highest quality pediatric therapy services in Ahmedabad.
               </p>
             </div>
