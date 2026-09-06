@@ -14,6 +14,8 @@ const teamMembers = [
   { name: "Dr. Manjur Mansuri", role: "Paediatric Rehabilitation Therapist" },
   { name: "Dr. Sabiha Saiyed", role: "Paediatric Physiotherapist" },
   { name: "Dr. Alfej Kankroliya", role: "Paediatric Physiotherapist" },
+  { name: "Dr Salma momin", role: "Paediatric physiotherapist" },
+  { name: "Dr Falak momin", role: "Paediatric physiotherapist" },
   { name: "Ms. Rukhsarbanu Pathan", role: "Rehabilitation Psychologist and Speech Therapist" },
   { name: "Mrs. Nafisa", role: "Rehabilitation Psychologist, ABA & CBT Therapist" },
   { name: "Mr. Saniya Kachrajiwala", role: "Rehab Psychologist" },
